@@ -1,0 +1,8 @@
+services:
+  # ====================
+  # Frontend
+  # ====================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev

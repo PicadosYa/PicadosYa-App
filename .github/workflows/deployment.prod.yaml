@@ -1,0 +1,14 @@
+name: CI/CD Pipeline
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  avoid_redundancy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Redundant Deployments
+        uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{github.token}}
