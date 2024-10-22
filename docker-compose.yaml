@@ -2,7 +2,23 @@ services:
   # ====================
   # Frontend
   # ====================
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile.dev
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile.dev
+
+  # ====================
+  # Base de datos
+  # ====================
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: picadosya
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql

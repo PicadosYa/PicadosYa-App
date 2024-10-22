@@ -31,3 +31,12 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+terraform/ec2/lambda_function/node_modules
+
+terraform/ec2/lambda_function/lambda.zip
+
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
