@@ -4,5 +4,24 @@ services:
   # ====================
   frontend:
     build:
-      context: ./frontend
+      context: ./Frontend
       dockerfile: Dockerfile.dev
+    container_name: picados-ya-frontend
+    ports:
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+
+  # ====================
+  # Base de datos
+  # ====================
+  mysql:
+    image: mysql:8.0
+    container_name: picados-ya-db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: picadosya
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql

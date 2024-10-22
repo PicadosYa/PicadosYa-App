@@ -1,0 +1,42 @@
+services:
+  # ====================
+  # Frontend
+  # ====================
+  frontend:
+    image: picadosya/picados-ya-frontend
+    ports:
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+
+  # ====================
+  # Base de datos
+  # ====================
+  mysql:
+    image: mysql:8.0
+    container_name: picados-ya-db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - ${DB_PORT}:${DB_PORT}
+    volumes:
+      - mysql_volume:/var/lib/mysql
+    restart: unless-stopped
+
+  backend:
+    image: picadosya/picados-ya-backend
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_PORT: ${DB_PORT}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+
+volumes:
+  mysql_volume:
+    driver: local

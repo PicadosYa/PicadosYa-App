@@ -8,7 +8,7 @@ resource "aws_instance" "instance_linux" {
     Ambiente = var.ec2_tag_ambiente
     ec2-scheduled = "true"
   }
-  # user_data = file("toolsForInstance.sh")
+  user_data = file("toolsForInstance.sh")
 }
 
 # output "URL" {
