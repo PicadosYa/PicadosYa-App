@@ -15,3 +15,20 @@ check_exit_code "Error al clonar el repositorio de scripts" "Clonando repositori
 ./installDocker.sh && rm -rf ./installDocker.sh
 check_exit_code "Fallo la instalacion de Docker" "instalando Docker y eliminando archivos y directorios inecesarios."
 
+
+
+cat <<EOL | sudo tee /etc/systemd/system/github-runner.service
+[Unit]
+Description=GitHub Actions Runner
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/actions-runner
+ExecStart=/home/ubuntu/actions-runner/run.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+EOL
