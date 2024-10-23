@@ -1,0 +1,2225 @@
+[
+    {
+        "nombre": "0 Stress",
+        "barrio": "Jacinto Vera",
+        "direccion": "Guaviyu 3013 esq. Gral. Flores",
+        "telefono": "2711 1332",
+        "detalle": "Salón de fiestas con cancha de fútbol 4 en Montevideo. Conozca nuestras instalaciones.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Juegos Inflables",
+            "Mozos"
+        ]
+    },
+    {
+        "nombre": "2 a 1 Fútbol 5",
+        "barrio": "La Unión",
+        "direccion": "Comercio 2159",
+        "telefono": "2508 2115",
+        "detalle": "2 a 1 Fútbol 5, cancha techada de fútbol 5 en el barrio Unión, cantina, vestuarios tv cable y un excelente ambiente para jugar tus partidos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/09/2a1-col-1.png",
+        "image_urls": [
+            "https://canchea.com.uy/complejo/2-a-1/attachment/2a1-futbol-5-montevideo-2/",
+            "https://canchea.com.uy/complejo/2-a-1/attachment/cancha-2a1-futbol-5-montevideo-2/",
+            "https://canchea.com.uy/complejo/2-a-1/attachment/cumpleanos-2-a-1-futbol-5-mvd/",
+            "https://canchea.com.uy/complejo/2-a-1/attachment/2a1-futbol-5-cumpleanos-2/"
+        ],
+        "servicios": [
+            "Animadores",
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "2 Cabezas",
+        "barrio": "Tres Cruces",
+        "direccion": "Ferrer Serra 2281",
+        "telefono": "099 598 161",
+        "detalle": "2 Cabezas (Ex La Estación Fútbol 5) es un complejo ubicado a metros de la terminal Tres Cruces, con excelentes instalaciones, vestuarios, cantina y una hermosa barbacoa para cumpleaños.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/05/2cabezas-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/2-cabezas-cancha-de-fútbol-5-en-tres-cruces-montevideo-8.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento techado",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Aerosur Fútbol 5",
+        "barrio": "San José de Carrasco",
+        "direccion": "Calle J. Sebastian Bach (ex Calle 4) esq. Aerosur",
+        "telefono": "092 666 696",
+        "detalle": "Aerosur Fútbol 5 ubicado próximo al Aeropuerto de Carrasco en Ciudad de la Costadispone de una cancha techada de césped sintético de última generación con certificación FIFA. Dispone de amplias dimensiones: 19 x 33 metros.Eventos:Gran espacio con parrillero para disfrutar del Tercer tiempo como para realizar cumpleaños y eventos en general! Dispone además de una pantalla gigante donde se transmiten los partidos más importantes tanto locales como internacionales.\r\n\r\nCantina: Cantina con bebidas frías y snack bar.\r\n\r\nVestuarios: Cómodos vestuarios de local y visitante con lockers y duchas de agua caliente.\r\n\r\nEstacionamiento: Estacionamiento dentro del predio.\r\n\r\nExcelente atención.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosurcol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/aerosur-futbol-5-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/07/flyer.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Aguada Fútbol 5",
+        "barrio": "Aguada",
+        "direccion": "Av. Gral. San Martín 2261",
+        "telefono": "2201 0927",
+        "detalle": "Aguada Fútbol 5 es un complejo con dos canchas de césped artificial con caucho de última generación.Tiene las dimensiones reglamentarias (15,5 m X 30 m ).Escuela de fútbol de 5 a 13 años y espacio para que festejar tu cumpleaños o evento.El complejo cuenta con vestuarios, baños y duchas; bebidas frías.Excelente atención.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/05/aguada.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/05/Aguada-Fútbol-5-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/05/Aguada-Fútbol-5-Montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/05/Aguada-Fútbol-5-Montevideo1.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita"
+        ]
+    },
+    {
+        "nombre": "Albatros Fútbol 5",
+        "barrio": "Atahualpa",
+        "direccion": "Av. Dr. Luis Alberto de Herrera 4235",
+        "telefono": "2336 1967",
+        "detalle": "Albatros fútbol 5 cancha de fútbol 5 techada ubicada en el Prado, con vestuarios, cantina y ofrece DVD con la filmación de tu partido.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/12/albatroscol1.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Bella Vista Fútbol 5",
+        "barrio": "Bella Vista",
+        "direccion": "Agraciada 3100",
+        "telefono": "2208 2166",
+        "detalle": "Bella Vista Fútbol 5, cancha techada de fútbol 5 y hermosa barbacoa para cumpleaños.\r\n\r\nContamos con un lugar integral, parrillero con barbacoa para 30 personas adultas, cancha techada, vestuarios con agua caliente, para las fiestas trabajamos con empresa de inflables, elaboración de pizzas y calzones, tortas de cumpleaños, proyector y demás.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/bellavista.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-16.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-14.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-15.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-17.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Bella-Vista-Canchas-de-Fútbol-5-en-Montevideo-11.jpg"
+        ],
+        "servicios": [
+            "Asador",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Belvedere Fútbol 5",
+        "barrio": "Belvedere",
+        "direccion": "Julián Laguna 4360",
+        "telefono": "",
+        "detalle": "Cancha de fútbol 5 Belvedere, parrillero, vestuario, cantina y tv cable.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/belvedere-col.jpg",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-1.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-5.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-6.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-7.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-8.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-9.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-10.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-11.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-12.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-13.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-14.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-15.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-16.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/Belvedere-canchas-de-futbol-5-en-montevideo-belvedere-17.jpeg"
+        ],
+        "servicios": []
+    },
+    {
+        "nombre": "Boomerang",
+        "barrio": "Sayago",
+        "direccion": "Batlle y Ordoñez (Propios) 6644 esq Carafí",
+        "telefono": "2900 9891",
+        "detalle": "Complejo a estrenar en Sayago, con el mejor pasto en la cancha, baños, vestuarios, duchas, cantina, estacionamiento para motos y autos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/11/boomergancol1.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-14.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/04/Boomerang-Futbol-5-en-Sayago-15.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Boston River",
+        "barrio": "Cerrito de la Victoria",
+        "direccion": "Saladero Fariña 3388",
+        "telefono": "2215 4679",
+        "detalle": "Alquiler de cancha de fútbol 5 en Mercado Modelo en Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/09/boston_river_col.png",
+        "image_urls": [],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Colegios",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Campo Grande",
+        "barrio": "La Figurita",
+        "direccion": "Av. Gral. Garibaldi 1892",
+        "telefono": "2200 3129",
+        "detalle": "Complejo de fútbol 5 con una cancha techada de césped sintético, cantina y vestuarios.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/campogrande.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Campo-Grande-F5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Campo-Grande-futbol-5.jpg"
+        ],
+        "servicios": [
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Campomar",
+        "barrio": "Paso Molino",
+        "direccion": "Uruguayana 3820",
+        "telefono": "2300 0003",
+        "detalle": "- Césped sintético profesional. Único en el país.\r\n- Confortables vestuarios para ambos sexos.\r\n- Estacionamiento privado.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Campomar-Fútbol-5-Canchas-de-Fútbol-5-y-Campeonatos-en-Paso-Molino-Montevideo-5.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Celta",
+        "barrio": "Prado",
+        "direccion": "Av. Islas Canarias 4387",
+        "telefono": "091 902 275",
+        "detalle": "Celta fútbol 5 estadio de fútbol 5. Cancha cerrada, estacionamiento.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/celtacol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/estadio-celta-futbol-5-montevideo-11.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Centenario",
+        "barrio": "La Blanqueada",
+        "direccion": "Luis Alberto de Herrera 2581 esq. 8 de Octubre",
+        "telefono": "2480 1733",
+        "detalle": "Centenario Fútbol 5 Canchas de Fútbol 5 en La Blanqueada Montevideo.\r\n\r\nDos Canchas de fútbol 5 Techadas además festejo de Cumpleaños en Barbacoa y Eventos. Cumpleaños infantiles, opcional Juegos Inflables, Animadores, Catering y más.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/cf5-col-1.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-futbol-5-cancha-de-futbol-5-en-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Centenario-Fútbol-5-Barbacoa-Parrillero-Cumpleaños-1.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Central 5",
+        "barrio": "Parque Batlle",
+        "direccion": "Av. Dr. A. Ricaldoni 2875",
+        "telefono": "27077046",
+        "detalle": "Central 5 Cancha de Fútbol 5 en Parque Batlle, Montevideo. Dos canchas abiertas y cantina con bebidas frías, estacionamiento abierto vigilado.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Centro Protección Choferes de Montevideo",
+        "barrio": "Sayago",
+        "direccion": "Coronel Raíz 1002",
+        "telefono": "094627264",
+        "detalle": "El Centro Protección Choferes de Montevideo cuenta con una cancha de fútbol 5 abierta, campeonatos y salones con parrillero, de 20 a 150 personas para eventos y cumpleaños. La hora de cancha tiene descuento con el alquiler de los salones.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2024/06/choferes_logo-col.png",
+        "image_urls": [
+            "https://canchea.com.uy/complejo/centro-proteccion-choferes-de-montevideo/attachment/centro-proteccion-choferes-cancha-futbol-5-2/",
+            "https://canchea.com.uy/complejo/centro-proteccion-choferes-de-montevideo/attachment/centro-proteccion-choferes-cancha-futbol-5-3/",
+            "https://canchea.com.uy/complejo/centro-proteccion-choferes-de-montevideo/attachment/centro-proteccion-choferes-cancha-futbol-5-4/"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Barbacoa 40 personas",
+            "Barbacoa 60 personas",
+            "Estacionamiento abierto"
+        ]
+    },
+    {
+        "nombre": "CF5",
+        "barrio": "Cordón",
+        "direccion": "Uruguay 1998 esq. República",
+        "telefono": "2409 1412",
+        "detalle": "Ubicado en el barrio Cordón, el complejo de fútbol 5 CF5 cuenta 2 canchas cerradas de fútbol 5 iluminadas, vestuario femenino y masculino, servicio de cantina, Wi Fi para clientes, salón para eventos, cumpleaños y parrillero.\r\n\r\nTambién Gimnasio para Entrenamientos, Organización de Campeonatos, Escuela de fútbol y Colonia de Verano.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/cf5-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-6.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-9.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-8.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-1.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-5.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/CF5-fútbol-5-en-cordón-parrillero-barbacoa-cumpleaños-7.jpeg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "City Park",
+        "barrio": "Shangrilá",
+        "direccion": "Arco Iris y San Francisco, KM 18 de Giannattasio",
+        "telefono": "2682 5842",
+        "detalle": "Canchas de fútbol 5 en Shangrilá, Ciudad de la Costa. Actualmente contamos con 2 canchas de césped sintético (con arena y caucho de goma molida) de la reconocida marca FORBEX.\r\n\r\nContamos con un amplio espacio para que puedan disfrutar de las comodidades al momento de ver los partidos o de estar entre amigos.\r\n\r\nZONA WIFI para poder estar actualizados con todos ustedes al instante.\r\n\r\nOrganizamos campeonatos y partidos amistosos.\r\n\r\nComplejo de canchas de fútbol 5 ubicado en Arco Iris y San Francisco, Km. 18 de Giannattasio Sur, Shangrilá, Canelones - Uruguay",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/city-park-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Cancha-Fútbol-5-City-Park-Canelones-Shangrila.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Cancha-Fútbol-5-City-Park-Shangrila-Canelones.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/City-Park-Fútbol-5-Campeonatos.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/City-Park-Fútbol-5-Ciudad-de-la-Costa-Canelones.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/City-Park-Fútbol-5-Ciudad-de-la-Costa.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/City-Park-Fútbol-5-int.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/City-Park-Fútbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Fútbol-5-City-Park-Canelones-Shangrila.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Fútbol-5-City-Park-Shangrila-Canelones.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/logo-city-park.png"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Clubur Fútbol 5",
+        "barrio": "Punta Gorda",
+        "direccion": "Jose Ordeig esq. Arrospide",
+        "telefono": "2604 8283",
+        "detalle": "Clubur Fútbol 5 está ubicado en el barrio Punta Gorda, Parque Rivera.\r\n\r\nConsta de 4 canchas de fútbol 5 y una de fútbol 7, vestuarios, cantina y una amplia barbacoa para cumpleaños, fiestas y eventos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/cluburcol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-14.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-16.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-17.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-18.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-19.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-15.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Canchas-de-fútbol-5-y-barbacoa-en-Punta-gorda-Montevideo-11.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Cantina",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Coliseo Deportes",
+        "barrio": "Ciudad Vieja",
+        "direccion": "Juan Lindolfo Cuestas 1595",
+        "telefono": "2916 3292",
+        "detalle": "Coliseo Deportes es un complejo con una cancha de fútbol 5 abierta y una cancha de fútbol 7 u 8 techada, gran cantina y una linda barbacoa con vista al puerto de Montevideo en el bario Ciudad Vieja.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/coliseo.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Coliseo-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Coliseo-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-0.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-16.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-331.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-34.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/cantina-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Cantina-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Cantina-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Cantina-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/cantina-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Fútbol-Tenis-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-23.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/fútbol-tenis-en-Montevideo-26.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/fútbol-tenis-en-Montevideo-25.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/parrillero-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/parrillero-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/parrillero-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-22.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Cumpleaños-infantil-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-29.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/premios-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-0.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Premios-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/Premios-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-20.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/premios-canchas-de-fútbol-5-y-fútbol-8-en-Montevideo-18.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/premios-fútbol-5-y-fútbol-8-en-Montevideo-2.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Complejo de la Costa",
+        "barrio": "Lagomar",
+        "direccion": "Libertad esq El Bosque",
+        "telefono": "26810000",
+        "detalle": "Complejo de la Costa es el centro deportivo más moderno de la zona.\r\n\r\nCanchas de Fútbol 5 y Hockey con pasto e iluminación de última generación.\r\n\r\nEntrenamiento Funcional.\r\n\r\nVestuarios, cantina, salas para cumpleaños y eventos con parrilleros individuales.\r\n\r\nPersonal capacitado, cobertura médica, estacionamiento propio.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/delacosta-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-de-la-costa-canchas-de-fútbol-5-en-ciudad-de-la-costa-montevideo-2.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Complejo Deportivo Portones",
+        "barrio": "Carrasco",
+        "direccion": "Prof. Dra. Maria L. Saldun De Rodriguez 2037",
+        "telefono": "2606 2760",
+        "detalle": "El Complejo Deportivo Portones Fútbol 5 se encuentra en el barrio de Carrasco, próximo al Portones Shopping.\r\n\r\nCuenta en total con 8 canchas de fútbol 5, hay abiertas y techadas y 3 canchas de fútbol 11.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Complejo Gonzalo de los Santos",
+        "barrio": "",
+        "direccion": "Ruta 101. km 23.500 (Cno. San Juan)",
+        "telefono": "097 955 387",
+        "detalle": "Alquiler de 5 canchas de fútbol 11 profesionales de primer nivel\r\nConsulte nuestros precios especiales para empresas y colegios\r\nClub House para tercer tiempo con Wi-Fi y DirecTV\r\nEstacionamiento con capacidad para mas de 160 autos\r\nParrillero",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Complejo-Gonzalo-de-los-Santos-en-Ciudad-de-la-Costa-Canelones-Uruguay-11.jpg"
+        ],
+        "servicios": [
+            "Asador",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Complejo Trafford",
+        "barrio": "",
+        "direccion": "Cno Repetto 4397",
+        "telefono": "098 400 857",
+        "detalle": "Complejo Trafford cuenta con 3 canchas de fútbol 11 de excelente nivel, estacionamiento para 100 vehiculos, baños, cantina, seguridad privada, cobertura medica, etc.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Complejo-Trafford-Fútbol-11-en-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Complejo-Trafford-Fútbol-11-en-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Complejo-Trafford-Fútbol-11-en-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Complejo-Trafford-Fútbol-11-en-Montevideo-2.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Concepción Fútbol 5",
+        "barrio": "Reducto",
+        "direccion": "Rivadavia 1580",
+        "telefono": "2200 0684",
+        "detalle": "Complejo deportivo de alto rendimiento con canchas de futbol 5, para usuarios amateur o profesionales.\r\n\r\n",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/concepcion-futbol-5-canchas-de-futbol-5-en-montevideo-11.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Cortita y al pie Fútbol 5",
+        "barrio": "Malvín Norte",
+        "direccion": "Cno. Carrasco 4980, entre Alejandro Gallinal y Pedro Cosio",
+        "telefono": "2522 7373",
+        "detalle": "\"Cortita y al pie\"es un multi espacio atendido por sus propios dueños donde encontraras un ambiente agradable tanto para la practica de deporte como para desarrollar eventos, cumpleaños o reuniones con amig@s.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2019/12/cortita-col.png",
+        "image_urls": [
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-7/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-8/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-3/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-5/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-2/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-1/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-4/",
+            "https://canchea.com.uy/complejo/cortita-y-al-pie-futbol-5/attachment/cortita-y-al-pie-futbol-5-camino-carrasco-6/"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "De Rambullé",
+        "barrio": "Reducto",
+        "direccion": "Colorado 1590",
+        "telefono": "099 143 162",
+        "detalle": "De Rambullé Fútbol 5 ofrece alquiler de cancha de fútbol 5 techada, campeonatos, entrenamiento funcional, escuelita de fútbol, festejo de cumpleaños, parrillero y más.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Mozos",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Defensor",
+        "barrio": "Parque Rodó",
+        "direccion": "21 de Setiembre 2362",
+        "telefono": "27116167",
+        "detalle": "",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "DeRebote Fútbol 5",
+        "barrio": "San José de Carrasco",
+        "direccion": "Rambla Costanera, a 1 de Alvear.",
+        "telefono": "092 650 505",
+        "detalle": "Cancha abierta, horas en todos los días de la semana, parrillero para cumpleaños, con venta de bebidas en la barra.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2018/02/derebote-col.jpg",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Dryco",
+        "barrio": "Reducto",
+        "direccion": "Enrique Martinez 1645 esq. San Martín",
+        "telefono": "2203 2483",
+        "detalle": "Dryco Fútbol 5 Cancha de fútbol 5 en Reducto Montevideo.\r\n\r\nFestejo de cumpleaños, escuelita de baby fútbol, campeonatos y más. ¡Consultá!",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Dryco-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-cancha-de-futbol-5-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-cancha-de-futbol-5-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-cancha-de-futbol-5-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/dryco-futbol-5-barbacoa-salon-cumpleaños-9.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "El Clásico Fútbol 5",
+        "barrio": "Malvín",
+        "direccion": "Dr. Alejandro Gallinal 2014",
+        "telefono": "091 918 435",
+        "detalle": "4 canchas de fútbol 5 techadas, cantina y vestuarios. Complejo ubicado en el barrio Malvín de Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/elclasicocol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/canchas-de-fútbol-5-en-malvín-montevideo-1.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "El Coloso (Malvín 5)",
+        "barrio": "Malvín",
+        "direccion": "Alejandro Gallinal 2115",
+        "telefono": "2619 7661",
+        "detalle": "El Coloso fútbol 5, canchas de fútbol 5 en Malvín, Montevideo. Dos canchas una abierta y otra techada. Cantina, estacionamiento propio.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/malvin51.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/canchas-de-futbol-5-malvin-7.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Bebidas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "El Galpón Fútbol 5",
+        "barrio": "Aguada",
+        "direccion": "Paraguay 2211",
+        "telefono": "2924 8880",
+        "detalle": "El Galpón Fútbol 5 ubicado bien cerca de Canal 4 de Montevideo, es un complejo que ofrece 10 canchas techadas de fútbol 5 con césped sintético de última generación, tableros digitales en todas las canchas. Además 4 nuevas canchas de fútbol 7.\r\n\r\nVestuarios completos, cantina con picadas y bebidas frías, cumpleaños. Amplia experiencia.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/elgalponcol.png",
+        "image_urls": [],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cumpleaños",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "El Patio Fútbol 5",
+        "barrio": "Cordón",
+        "direccion": "Guaná 1976",
+        "telefono": "2400 8996",
+        "detalle": "El Patio Fútbol 5 ofrece una cancha de fútbol 5 techada en Cordón, Montevideo.\r\n\r\nFestejo de cumpleaños, barbacoa, cantina, vestuarios, completas instalaciones para tu comodidad.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/elpatio.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto"
+        ]
+    },
+    {
+        "nombre": "Fair Play",
+        "barrio": "Villa Española",
+        "direccion": "Pavón 4648",
+        "telefono": "25118582",
+        "detalle": "Fair Play Fútbol 5 - Cancha de fútbol 5 en Villa Española, Montevideo.\r\n\r\nBarbacoa con parrillero para 45 personas, cumpleaños, festejos, eventos y una excelente cancha de fútbol 5 que se puede jugar de a 6 cómodamente.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/fairplay-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-7.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-5.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-10.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-6.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Fair-Play-Fútbol-5-Montevideo-Villa-Española-11.jpeg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario femenino"
+        ]
+    },
+    {
+        "nombre": "Fanáticos Fútbol 5",
+        "barrio": "Peñarol",
+        "direccion": "Aparicio Saravia 4561 esq. Cnel. Raiz",
+        "telefono": "097 370 059",
+        "detalle": "Dos canchas techadas de alto rendimiento para fútbol amateur y profesional.\r\nSalón de fiestas y barbacoa con parrillero para festejos, reuniones y eventos.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Fanaticos-Futbol-5-canchas-de-futbol-5-en-Peñarol-Montevideo-Uruguay-12.jpg"
+        ],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Catering",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Garaje Fútbol 5",
+        "barrio": "Cordón",
+        "direccion": "Charrúa 1967",
+        "telefono": "095 893 175",
+        "detalle": "Garaje Fútbol 5 brindamos instalaciones para la práctica segura y divertida de fútbol 5, con césped FIFA de última generación,vestuarios y tablero digital.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/El-Garaje-futbol-5-canchas-en-cordon-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/El-Garaje-futbol-5-canchas-en-cordon-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/El-Garaje-futbol-5-canchas-en-cordon-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/El-Garaje-futbol-5-canchas-en-cordon-montevideo-2.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Guinda!",
+        "barrio": "Prado",
+        "direccion": "Millán 3872 al fondo",
+        "telefono": "091 484 632",
+        "detalle": "SERVICIOS• 2 vestuarios con duchas agua caliente• Cantina• Estacionamiento para bicicletas y motos / autos en la calle (sugerencia sobre Millán o sobre Pantaleón Sotelo, hay cuida coche)• Barbacoa para cumpleaños, reuniones, etc para hasta 40 personas con parrillero• Hay 5 aparatos al aire libre (como los de las plazas) que se pueden utilizar.• Parque infantil con juegos y hamacas.• Se organizan triangulares y minitorneos de mujeres y mixtos.• Espacios de aprendizaje en fútbol para mujeres y para niños y niñas• Pilates, horas de deporte social, entrenamiento funcional, entrenamiento deportivo para equipos.• En verano tenemos una programa para niños y niñas entre 4 y 12 años.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/guinda-col-1.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/11/Guinda-canchas-de-futbol-5-y-7-y-voley-en-el-prado-montevideo-3.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Indoor 3 cruces",
+        "barrio": "Tres Cruces",
+        "direccion": "Cufré 1918 esquina Miguelete",
+        "telefono": "2409 0740",
+        "detalle": "El Complejo Indoor Tres Cruces está ubicado en el barrio Tres Cruces, 2 canchas de fútbol 5 techadas, vestuarios, cantina.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/indoor-xxx-col.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Invictos",
+        "barrio": "Belvedere",
+        "direccion": "Basagoiti 4266 esq. Carlos M. Ramírez",
+        "telefono": "2304 1972",
+        "detalle": "Cancha de Fútbol 5 cerrada en el barrio Belvedere, Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/06/invictoscol.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Academia MG Tenis y Fútbol 5",
+        "barrio": "Carrasco Norte",
+        "direccion": "Siracusa 2390",
+        "telefono": "26046154",
+        "detalle": "Contamos con 9 canchas de tenis al aire libre, un gimnasio de 600 m2 con 2 salas para ﬁtness y sala de aparatos, boutique con venta de equipamiento e indumentaria deportiva y actividades organizadas especialmente a favor de la recreación y la salud.\r\n\r\nDesde febrero, el club cuenta con canchas de fútbol 5 en nuestro anexo en Bolivia y Verona. En marzo se inagurará un playroom para que nuestros asociados puedan dejar a sus hijos mientras ellos realizan sus actividades.\r\n\r\nLa calidad de nuestras instalaciones, su renovación constante, el profesionalismo y la calidez humana nos dan el encuadre perfecto para garantizar el bienestar de quienes cada día, se suman a nuestra familia.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/La-Academia-MG-Tenis-y-Fútbol-5-en-Carrasco-Montevideo-9.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Barbacoa",
+        "barrio": "Buceo",
+        "direccion": "Rivera 3582",
+        "telefono": "2622 8988",
+        "detalle": "La Barbacoa Fútbol 5 es un complejo ubicado en el Barrio Buceo, tiene una cancha de fútbol 5 cerrada, barbacoa para cumpleaños y eventos, cantina, tv cable, wifi, vestuarios femenino, masculino y organización de campeonatos.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/La-Barbacoa-fútbol-5-cancha-en-barrio-Buceo-calle-Rivera-1.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Bombonera",
+        "barrio": "Buceo",
+        "direccion": "Av. Francisco Solano López 1704",
+        "telefono": "26131874",
+        "detalle": "La Bombonera Fútbol 5 es un complejo con una cancha de fútbol 5 techada ubicada en el barrio Buceo, con vestuarios, cantina, tv cable y una excelente atención.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/09/bombonera-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/09/La-Bombonera-fútbol-5-montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/09/La-Bombonera-fútbol-5-mvd.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/09/La-Bombonera-fútbol-5.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Cantera",
+        "barrio": "Puntas de Manga",
+        "direccion": "Camino Régulo 4326 esq. Enólogos",
+        "telefono": "099 775 719",
+        "detalle": "El complejo deportivo La Cantera se encuentra a tan sólo 20 minutos del centro de Montevideo. Contamos con canchas de fútbol 7 y fútbol 11, de césped natural y a estrenar.\r\n\r\nPodés alquilar nuestras canchas de fútbol 7 y fúbol 11. Vení a divertirte con tus amigos y a disfrutar de nuestro complejo.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Campeonatos",
+            "Cantina",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "La Cima Fútbol 11",
+        "barrio": "Aeropuerto",
+        "direccion": "Ruta 102 km 24500",
+        "telefono": "094 879 883",
+        "detalle": "Alquiler de canchas de fútbol 11 iluminadas para partidos y entrenamientos.3 hectáreas cercadasPonemos a disposición de amigos, clubes, ligas, colegios y amantes del fútbol en general, nuestro complejo deportivo de más de 3 hectáreas cercadas, para vivir la experiencia de jugar en canchas de nivel profesional.10 minutos de MontevideoA menos de 10 minutos del corazón de carrasco, con vías de acceso asfaltadas y fácilmente accesibles, entre el aeropuerto y el estadio de Peñarol se encuentra LA CIMA.ESPECIFICACIONES FIFA, CON MEDIDAS REGLAMENTARIAS, ILUMINACIÓN ARTIFICIAL PARA USO NOCTURNO.Nuestro complejo cuenta, por el momento, con DOS CANCHAS de Fútbol Asociación, diseñadas para cumplir con las especificaciones FIFA, con medidas reglamentarias aptas para cualquier competición oficial.\r\n\r\nLas canchas cuentan conILUMINACIÓN ARTIFICIAL para uso nocturno. Con más de 1000 metros de tendido subterránea y una iluminación calculada para la practica deportiva, el arquero tendrá que conseguirse otra excusa.Los suelosLos trabajos de preparación de los suelos, fueron realizados por la misma empresa que trabajó en la preparación de la cancha del reciente Estadio de Peñarol.El SISTEMA DE DESAGÜEfue especialmente diseñado para soportar una carga de 60.000 litros de agua por día, y ser evacuados en 120 minutos.ESTACIONAMIENTOS Y VIGILANCIAContamos con ESTACIONAMIENTO dentro del predio y con VIGILANCIA PRIVADA.VESTUARIOS Y LOCKERSLos VESTUARIOS de local y visitante cuentan con DUCHAS de agua caliente, y baños.\r\nTambién se cuenta con LOCKERS, para guardar pertenencias y un AMPLIA ÁREA de vestuario para las charlas técnicas.\r\n\r\nLos accesorios,\r\nLos arcos de fútbol fueron realizados con la misma tecnología y por el mismo proveedor, utilizados por el Club Nacional de Football, en la cancha del Gran Parque Central.\r\n\r\nLas redes fueron traídas de Inglaterra, y son las mismas que el Manchester City F.C. usa en el “City of Manchester Stadium”\r\n\r\nLos accesorios, como barreras y conos, fueron obtenidos del mismo proveedor de varios clubes de la English Premier League, y de la MLS como el Houston Dinamos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/lacima-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/la-cima-f5.png",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/la-cima-futbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/canchas-futbol-11-la-cima.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/canchas-futbol-11-montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/canchas-la-cima-montevideo-iluminadas.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/la-cima-futbol-11.jpg"
+        ],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "La Experimental Fútbol 5",
+        "barrio": "Malvín",
+        "direccion": "Estrázulas 1578",
+        "telefono": "091 929 235",
+        "detalle": "Complejo Deportivo \"La Experimental\" cancha de fútbol 5 en Malvín.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/05/experimental5-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/05/la-experimental-futbol-5-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/05/la-experimental-futbol-5-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/05/la-experimental-futbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/05/portada.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Masía",
+        "barrio": "Carrasco Norte",
+        "direccion": "Servando Gómez 2970",
+        "telefono": "095 971 877",
+        "detalle": "La Masía es un complejo con tres canchas de fútbol 11 y tres canchas de fútbol 7 en el barrio Carrasco Norte.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/03/la-masia-futbol-7-y-11-1.jpeg",
+        "image_urls": [],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Tecla F5",
+        "barrio": "La Unión",
+        "direccion": "Teófilo Collazo 2629",
+        "telefono": "092 084 707",
+        "detalle": "Alquiler de canchas de fútbol 5.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/10/F5_col.png",
+        "image_urls": [
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-4/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-2/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-5/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-3/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-8/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-6/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-1/",
+            "https://canchea.com.uy/complejo/boston-river/attachment/la-tecla-f5-cancha-de-futbol-5-en-montevideo-7/"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "La Ternera",
+        "barrio": "Aguada",
+        "direccion": "Av. Agraciada 2502",
+        "telefono": "29243832",
+        "detalle": "Club Congreso Fútbol 5 La Ternera, parrillero, vestuarios.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Lokura Futbol",
+        "barrio": "Sayago",
+        "direccion": "Ariel 4511 esquina Raffo",
+        "telefono": "095 019 127",
+        "detalle": "Alquiler de cancha de fútbol 5. Lokura Fútbol complejo de una cancha de fútbol 5 techada.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/lokuraf5col.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Malvín Alto",
+        "barrio": "Malvín Norte",
+        "direccion": "Camino Carrasco 4680 esq. Hipólito Irigoyen",
+        "telefono": "094 759 876",
+        "detalle": "Canchas de fútbol 5 en Malvín Alto Montevideo.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/cancha-malvin-alto-uruguay-canchea.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-futbol-5-en-malvin-alto-montevideo-3.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 60 personas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Master 5",
+        "barrio": "La Blanqueada",
+        "direccion": "Chiavari 2889",
+        "telefono": "092 290 020",
+        "detalle": "Cancha de fútbol 5 techada en La Blanqueada, Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/06/mastercol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/07/Master-5-fútbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/07/Master-5-fútbol-5-1.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Campeonatos",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Matu 5",
+        "barrio": "Prado",
+        "direccion": "Buricayupi 3151 esq. Bv. Artigas",
+        "telefono": "098 838 383",
+        "detalle": "Matu 5 fútbol 5 es un complejo con 2 canchas de fútbol 5, una abierta y una cerrada, barbacoa para cumpleaños infantiles, fiestas y eventos. Vestuarios, cantina, wifi y tv cable. Excelente atención.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/matu-col.jpg",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/11/Matu-5-futbol-5-Prado-Montevideo-2.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Meñique 5",
+        "barrio": "Prado",
+        "direccion": "Joaquín Suárez 3328",
+        "telefono": "2203 7030",
+        "detalle": "Meñique 5 cancha de Fútbol 5 en el Prado y salón de fiestas para cumpleaños infantiles y eventos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/logo_menique_col.jpg",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/cancha-de-futbol-5-menique-prado-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-15.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/menique-cancha-de-futbol-5-prado-14.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Montevideo Basket Ball Club",
+        "barrio": "",
+        "direccion": "Porongos 2203",
+        "telefono": "092 656 565",
+        "detalle": "Montevideo fútbol 5 y basketball en la calle porongos 2203 esq. Martín García en el Club Montevideo de Basketball\r\nreservas 092 656 565",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Montevideo-Basket-Ball-Club-Cancha-de-fútbol-5-y-basquetbol-en-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Montevideo-Basket-Ball-Club-Cancha-de-fútbol-5-y-basquetbol-en-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Montevideo-Basket-Ball-Club-Cancha-de-fútbol-5-y-basquetbol-en-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Montevideo-Basket-Ball-Club-Cancha-de-fútbol-5-y-basquetbol-en-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Montevideo-Basket-Ball-Club-Cancha-de-fútbol-5-y-basquetbol-en-Montevideo-1.jpg"
+        ],
+        "servicios": [
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Montevideo Cricket Club",
+        "barrio": "Country La Asunción",
+        "direccion": "Interbalnearia y Cno. de los Horneros",
+        "telefono": "2696 4762",
+        "detalle": "Montevideo Cricket Club, ubicado en el departamento de Canelones, ofrece sus canchas de fútbol 11 y de tenis en alquiler. Canchas iluminadas. Consulte.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/mvcccol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-19.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-15.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-14.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-16.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-17.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/canchas-de-fútbol-de-montevideo-cricket-club-18.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 60 personas",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Palermo 5",
+        "barrio": "Palermo",
+        "direccion": "Magallanes 1017",
+        "telefono": "099 050 555",
+        "detalle": "Palermo 5 fútbol 5 es un complejo con una cancha de fútbol 5 techada en el barrio Palermo, próximo a Cordón.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/palermo-5-col.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Escuelita",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Perseverancia Fútbol 5",
+        "barrio": "Piedras Blancas",
+        "direccion": "Perseverancia 5079",
+        "telefono": "091 902 275",
+        "detalle": "¡Los precios se mantienen los fines de semana y los feriados abiertos! Promociones en sector quiosco también.\r\nFútbol masculino\r\nFútbol femenino\r\nVestuario para hombres, Vestuario para mujeres",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseveranciacol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-5.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-uy.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2015/04/perseverancia-futbol-5-montevideo-1.jpeg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Pinar Doble 5",
+        "barrio": "El Pinar",
+        "direccion": "Av Artigas esq Perez y Fuentes",
+        "telefono": "095 544 604",
+        "detalle": "Somos una cancha de fútbol 5, a orillas del arroyo, donde apuntamos a hacer de esta cancha un lugar de encuentro y diversión para la gente de la zona.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/doble5-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-16.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-10.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-11.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-12.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-13.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-14.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/09/pinar-doble-5-15.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto"
+        ]
+    },
+    {
+        "nombre": "Polideportivo Carrasco",
+        "barrio": "Carrasco Norte",
+        "direccion": "Camino Pavia 2773",
+        "telefono": "096 225 684",
+        "detalle": "Nuevo campus deportivo Polideportivo Carrasco \r\nAlquiler de canchas para f7, f11, baby football o hockey. \r\nEstamos ubicados en Camino Pavia a menos de 50 mt de Camino Carrasco.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Polideportivo-Carrasco-canchas-de-fútbol-7-en-carrasco-norte-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Polideportivo-Carrasco-canchas-de-fútbol-7-en-carrasco-norte-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Polideportivo-Carrasco-canchas-de-fútbol-7-en-carrasco-norte-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/07/Polideportivo-Carrasco-canchas-de-fútbol-7-en-carrasco-norte-Montevideo-1.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Punto Gol",
+        "barrio": "La Comercial",
+        "direccion": "Arenal Grande 2060",
+        "telefono": "2924 9862",
+        "detalle": "Punto Gol Fútbol 5 consta de dos canchas techadas de fútbol 5 de excelente calidad, vestuarios, cantina y un ambiente espectacular para tus partidos de fútbol.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/06/puntogol.png",
+        "image_urls": [],
+        "servicios": [
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Quiero Fútbol",
+        "barrio": "Jacinto Vera",
+        "direccion": "Bv. Artigas 3171 esq. Cufré",
+        "telefono": "2203 6017",
+        "detalle": "Alquiler de canchas de fútbol 5. Quiero Fútbol complejo con una cancha techada, venta de bebidas frías.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/quiero_futbol.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-6.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-1.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/Quiero-fútbol-cancha-de-fútbol-5-en-montevideo-5.jpeg"
+        ],
+        "servicios": [
+            "Asador",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Racing Fútbol 5",
+        "barrio": "Sayago",
+        "direccion": "Av. Millán 4712",
+        "telefono": "2355 8859",
+        "detalle": "Canchas de fútbol 5 está ubicado en el barrio de Sayago, consta de canchas de fútbol 5 abiertas hechas a nuevo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/racingcol.png",
+        "image_urls": [],
+        "servicios": [
+            "Barbacoa 25 personas",
+            "Cantina",
+            "Cumpleaños"
+        ]
+    },
+    {
+        "nombre": "River Plate Fútbol 5",
+        "barrio": "Prado",
+        "direccion": "19 de Abril 1145 esq. Pelossi",
+        "telefono": "092 411 129",
+        "detalle": "River Plate Fútbol 5 consta de dos canchas de fútbol 5 abiertas, ubicadas en el barrio del Prado, con parrilleros, vestuarios, amplio estacionamiento privado, cantina y escuelita de fútbol. Festejo de cumpleaños infantiles y de adultos, recibimientos, fiestas de fin de año, reuniones y eventos sociales.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/riverplate.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/river-plate-futbol-5-prado-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/river-plate-futbol-5-prado-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/River-Plate-canchas-de-fútbol-5-Prado-Montevideo-1.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Estacionamiento abierto"
+        ]
+    },
+    {
+        "nombre": "Salterain Fútbol 5",
+        "barrio": "Cordón",
+        "direccion": "Salterain 1468",
+        "telefono": "091 001 214",
+        "detalle": "Salterain Fútbol 5 es un complejo con una cancha de fútbol 5 techada, con cantina y muy buena atención ubicado en el barrio de Cordón en Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/salterain-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-futbol-5-en-cordón-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/salterain-futbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-futbol-5-en-cordón-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-futbol-5-en-cordón-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-futbol-5-en-cordón-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/salterain-futbol-5-cancha.png",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/canchas-de-futbol-5-en-cordón-montevideo.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Skorpios",
+        "barrio": "Jacinto Vera",
+        "direccion": "Guaviyú 2927",
+        "telefono": "2209 2262",
+        "detalle": "Cancha techada, horas en todos los días de la semana, TV, alquiler de parrillero, fiestas y cumpleaños, con venta de bebidas en la barra.\r\n\r\nDe 10 a 18 horas todos los días $ 1000.\r\n\r\nDe 19 a 22 horas $1300.\r\n\r\nSábados y domingos todo el día$ 1000.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/skorpios-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-1.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-2.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-3.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-7.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-4.jpeg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/01/Skorpios-fútbol-5-Montevideo-Jacinto-Vera-5.jpeg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Soccer 21",
+        "barrio": "Cerro",
+        "direccion": "Charcas esq. Egipto",
+        "telefono": "2312 2121",
+        "detalle": "Soccer 21 Fútbol 5, cancha de fútbol 5 en el Cerro, Montevideo.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/canchas-de-futbol-5-en-el-Cerro-Montevideo-4.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Soccer City",
+        "barrio": "La Blanqueada",
+        "direccion": "Mariano Moreno 2424",
+        "telefono": "099 242 254",
+        "detalle": "Soccer City Fútbol 5 se encuentra en La Blanqueada, consta de una cancha techada de fútbol 5, vestuarios, cantina y futbolito.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/soccercity1.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 25 personas",
+            "Estacionamiento abierto",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Sport 11",
+        "barrio": "",
+        "direccion": "Camino O´Higgins 8590",
+        "telefono": "099 559 497",
+        "detalle": "Sport 11 canchas de fútbol 11 en Paso de la Arena, Montevideo.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/sport11-cancha-de-futbol-11-en-paso-de-la-arena-montevideo.jpg"
+        ],
+        "servicios": []
+    },
+    {
+        "nombre": "Sport Center Fútbol 5",
+        "barrio": "Maldonado",
+        "direccion": "Francisco Aguilar esq. Sarandí",
+        "telefono": "4224 4513",
+        "detalle": "Los diseñadores del complejo, hemos sido usuarios por años de varias canchas de fútbol 5. Nuestra meta es brindar el mejor servicio, cuidando hasta el más mínimo detalle, favoreciendo así la comodidad del cliente. El complejo deportivo SportCenter.com.uy, es un sueño y un orgullo para nosotros.Creamos este proyecto (y lo cuidamos) con muchísimo cariño.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/cancha-futbol-5-maldonado-uruguay-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/cancha-futbol-5-maldonado-uruguay-2.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Campeonatos",
+            "Estacionamiento abierto",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Stockolmo",
+        "barrio": "Prado",
+        "direccion": "Cno. Castro 404",
+        "telefono": "2307 5454",
+        "detalle": "Stockolmo fútbol 5, complejo de tres canchas de fútbol 5 abiertas, parrillero, vestuarios, ubicado en el barrio Prado de Montevideo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/12/stockolmocol.png",
+        "image_urls": [],
+        "servicios": [
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Supermatch 5",
+        "barrio": "Malvín",
+        "direccion": "Valencia 1961 esq. Av. Italia",
+        "telefono": "2613 8594",
+        "detalle": "Supermatch 5 fútbol 5 es un complejo de primer nivel, ubicado en el barrio Malvín de Montevideo.\r\n\r\nConsta de 5 canchas de fútbol 5 techadas, tres barbacoas para cumpleaños, fiestas y eventos, vestuarios femeninos y masculinos, cantina, wifi y un amplio estacionamiento interno vigilado.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch1.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/supermatch-5-futbol-5-montevideo-4.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Tajes 5",
+        "barrio": "Carrasco",
+        "direccion": "Máximo Tajes 6482",
+        "telefono": "2600 2221",
+        "detalle": "Tajes 5 fútbol 5 es un complejo ubicado en el barrio de Carrasco. Tiene dos canchas de fútbol 5 abiertas, cantina, espacio para cumpleaños y eventos.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-9.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-6.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-8.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/10/Tajes-5-fútbol-5-cancha-de-fútbol-5-en-carrasco-2.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "The One Futbol 5",
+        "barrio": "Flor de Maroñas",
+        "direccion": "Cno. Maldonado 4960 esq. Rodano",
+        "telefono": "2511 0081",
+        "detalle": "The One Fútbol 5 es un complejo ubicado en Flor de Maroñas, consta de una cancha techada de fútbol 5 de excelente calidad, vestuarios, cantina, wifi y tv cable para sus clientes.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/02/theonecol.png",
+        "image_urls": [],
+        "servicios": [
+            "Cantina",
+            "Cumpleaños",
+            "Escuelita",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Tiro Libre",
+        "barrio": "La Comercial",
+        "direccion": "Amezaga 2186 esq. Cufré",
+        "telefono": "2208 9035",
+        "detalle": "Alquiler de cancha de fútbol 5.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tirolibre_col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/03/tiro-libre-cancha-de-fútbol-5-en-montevideo-5.jpg"
+        ],
+        "servicios": [
+            "Barbacoa 25 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Escuelita",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Tres Dedos Fútbol 5",
+        "barrio": "San José",
+        "direccion": "Rivera 023 esq. Callero",
+        "telefono": "091 773 515",
+        "detalle": "Tres Dedos la cancha de fútbol 5 que estabas esperando en San José de Mayo! Vení a divertirte con tus amigos! Te Esperamos!",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-7.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2018/06/Tres-Dedos-Fútbol-5-cancha-de-fútbol-5-en-San-José-Uruguay-8.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Cantina",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Union 5",
+        "barrio": "La Unión",
+        "direccion": "Juan Jacobo Rousseau 3662",
+        "telefono": "097 309 763",
+        "detalle": "Centro deportivo Unión 5, con cancha de futbol 5 en el barrio Unión; sala de acondicionamiento físico, welness, fitness, pilates y gimnasia laboral.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/union.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/logo-union-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/cancha-union-5-futbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/union-5-futbol-5-equipo.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/union-5-futbol-5-equipos.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Union-5-futbol-5-cumpleaños-barbacoa-2.png",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Union-5-futbol-5-cumpleaños-barbacoa-3.png",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/08/Union-5-futbol-5-cumpleaños-barbacoa-4.png"
+        ],
+        "servicios": [
+            "Animadores",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Juegos Inflables",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Urreta",
+        "barrio": "La Blanqueada",
+        "direccion": "Canstatt 2966",
+        "telefono": "2481 3078",
+        "detalle": "Urreta fútbol 5 consta de una cancha de fútbol 5 abierta, cantina y vestuarios, en una excelente ubicación del barrio La Blanqueada.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/urreta.png",
+        "image_urls": [],
+        "servicios": [
+            "Cantina"
+        ]
+    },
+    {
+        "nombre": "Varadero Fútbol 5",
+        "barrio": "Atahualpa",
+        "direccion": "Luis Alberto de Herrera 4171",
+        "telefono": "",
+        "detalle": "Varadero Fútbol 5, cancha de fútbol 5 en Atahualpa, Prado, Montevideo, Uruguay.",
+        "logo_url": "",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/barbacoa-varadero.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/varadero-f5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/varadero-futbol-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2016/07/varadero.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Escuelita",
+            "Estacionamiento abierto",
+            "Juegos Inflables",
+            "Mozos",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Villa Fútbol 5",
+        "barrio": "Nuevo París",
+        "direccion": "Av. Islas Canarias 4993 esq. Coronilla",
+        "telefono": "092 759 180",
+        "detalle": "Villa Fútbol 5 canchas para jugar en Nuevo París!\r\n\r\nDos canchas de fútbol 5 abiertas, vestuarios, duchas, festejo de cumpleaños, barbacoa, parrillero.\r\n\r\n¡Vení a conocer!",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/06/villa-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/06/Villa-Fútbol-5-Canchas-Nuevo-París-Montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/06/Villa-Fútbol-5-Canchas-Nuevo-París-Montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/06/Villa-Fútbol-5-Canchas-Nuevo-París-Montevideo-4.jpg"
+        ],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Campeonatos",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Estacionamiento abierto",
+            "Vestuario femenino",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    },
+    {
+        "nombre": "Villa María",
+        "barrio": "Santiago Vázquez",
+        "direccion": "Cno. Sosa Chaferro 2550 esq. L. Batlle Berres",
+        "telefono": "093 870 249",
+        "detalle": "Villa María alquila sus canchas de fútbol 11 para entrenamientos y partidos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/villa_maria.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/mapa.png",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2014/05/foto6.jpg"
+        ],
+        "servicios": [
+            "Bebidas"
+        ]
+    },
+    {
+        "nombre": "Wembley",
+        "barrio": "Villa Dolores",
+        "direccion": "4 De Julio 3142",
+        "telefono": "2628 4904",
+        "detalle": "Wembley cancha de fútbol 5 techada en Villa Dolores, Montevideo.",
+        "logo_url": "",
+        "image_urls": [],
+        "servicios": [
+            "Asador",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Wimbledon",
+        "barrio": "Pocitos Nuevo - Buceo",
+        "direccion": "Saldanha Da Gama 3727",
+        "telefono": "2622 4875",
+        "detalle": "Wimbledon Fútbol 5 consta de una cancha techada de fútbol 5 y una cancha de básquetbol techada para 4 contra 4. Cantina, Vestuarios.\r\n\r\nSe alquila para cumpleaños infantiles. En el barrio Buceo, a pocas cuadras del Montevideo Shopping Center y del barrio Pocitos Nuevo.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/10/wimbledon-col.png",
+        "image_urls": [],
+        "servicios": [
+            "Animadores",
+            "Bebidas",
+            "Barbacoa 40 personas",
+            "Cantina",
+            "Cumpleaños",
+            "Vestuario masculino"
+        ]
+    },
+    {
+        "nombre": "Yacht Club Uruguayo",
+        "barrio": "Buceo",
+        "direccion": "Av. Prof. E Peluffo s/n",
+        "telefono": "2628 0987",
+        "detalle": "Yacht fútbol 5 está ubicado en una hermosa zona como lo es el Puerto del Buceo.\r\n\r\nConsta de 3 canchas abiertas de fútbol 5, vestuarios, cantina y un hermoso quincho barbacoa para hacer cumpleaños y eventos.",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2013/11/yachtcol.png",
+        "image_urls": [],
+        "servicios": [
+            "Bebidas",
+            "Barbacoa 60 personas",
+            "Cantina",
+            "Estacionamiento abierto",
+            "Mozos"
+        ]
+    },
+    {
+        "nombre": "Zimon Zinko",
+        "barrio": "La Blanqueada",
+        "direccion": "Gral. Urquiza 2883",
+        "telefono": "2487 5917",
+        "detalle": "Zimon Zinko fútbol 5 es un complejo con una cancha de fútbol 5 techada en el barrio La Blanqueada.\r\n\r\n",
+        "logo_url": "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-col.png",
+        "image_urls": [
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-1.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-2.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-3.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-4.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-5.jpg",
+            "https://canchea.com/uy/wp-content/uploads/sites/2/2017/08/zimon-zinko-cancha-de-futbol-5-en-la-blanqueada-montevideo-6.jpg"
+        ],
+        "servicios": [
+            "Animadores",
+            "Asador",
+            "Catering",
+            "Cantina",
+            "Colegios",
+            "Cumpleaños",
+            "Entrenamientos",
+            "Estacionamiento abierto",
+            "Mozos",
+            "Vestuario masculino",
+            "Wifi"
+        ]
+    }
+]
