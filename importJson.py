@@ -5,7 +5,7 @@ import requests
 import time
 
 # Crear la base de datos desde el archivo SQL
-subprocess.run(["mysql", "-u", "tu_usuario", "-p", "tu_contrasena", "<", "/mnt/data/picadosYa.sql"], shell=True)
+subprocess.run(["mysql", "-u", "root", "-p", "password", "<", "/mnt/data/picadosYa.sql"], shell=True)
 
 # Leer los datos del JSON
 with open('/mnt/data/canchas_info.json', 'r') as file:
