@@ -1,5 +1,5 @@
 -- ====================================================
--- Crear la base de datos principal si no existe
+-- Crea la base de datos principal si no existe
 -- ====================================================
 CREATE DATABASE IF NOT EXISTS app_reservas;
 
