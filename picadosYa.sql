@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS canchas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     direccion VARCHAR(255) NOT NULL,
+    barrio VARCHAR(100),
+    telefono VARCHAR(20),
     latitud DECIMAL(10, 8), -- Coordenada de latitud para geolocalización
     longitud DECIMAL(11, 8), -- Coordenada de longitud para geolocalización
     tipo ENUM('5', '7', '11') NOT NULL, -- Tipo de cancha según número de jugadores
@@ -41,6 +43,7 @@ CREATE TABLE IF NOT EXISTS canchas (
     descripcion TEXT,
     logo_url VARCHAR(255), -- URL al logo de la cancha
     calificacion_promedio DECIMAL(3, 2) DEFAULT 0, -- Promedio de calificaciones de usuarios
+    servicios TEXT, -- Servicios adicionales ofrecidos por la cancha
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
