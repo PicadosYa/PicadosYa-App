@@ -14,7 +14,7 @@ connection = mysql.connector.connect(
     host='localhost',  # Cambia esto por la dirección de tu base de datos
     user='tu_usuario',  # Cambia esto por tu usuario de MySQL
     password='tu_contrasena',  # Cambia esto por tu contraseña de MySQL
-    database='app_reservas'
+    database='app_picadosYa'
 )
 cursor = connection.cursor()
 
@@ -31,14 +31,24 @@ for cancha in canchas_data:
     longitud = cancha.get('longitud', None)
     tipo = '5'  # Asumiremos que todas las canchas son de tipo "5" hasta que se indique otro valor
     precio = 1000.0  # Un precio por defecto hasta que se proporcione
+    image_urls = cancha.get('image_urls', [])  # Lista de URLs de las imágenes
 
     # Insertar datos en la tabla "canchas"
     insert_query = (
-        "INSERT INTO canchas (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, descripcion) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+        "INSERT INTO canchas (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, descripcion, logo_url) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
     )
     propietario_id = 1  # Asumimos un propietario temporalmente, actualiza esto según corresponda
-    cursor.execute(insert_query, (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, detalle))
+    cursor.execute(insert_query, (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, detalle, logo_url))
+    cancha_id = cursor.lastrowid
+
+    # Insertar las URLs de las imágenes en la tabla "canchas_fotos"
+    for url in image_urls:
+        insert_foto_query = (
+            "INSERT INTO canchas_fotos (cancha_id, url_foto) "
+            "VALUES (%s, %s)"
+        )
+        cursor.execute(insert_foto_query, (cancha_id, url))
 
 # Confirmar los cambios y cerrar la conexión
 connection.commit()
@@ -46,3 +56,4 @@ cursor.close()
 connection.close()
 
 print("Datos insertados correctamente.")
+

@@ -1,10 +1,10 @@
 -- ====================================================
 -- Crea la base de datos principal si no existe
 -- ====================================================
-CREATE DATABASE IF NOT EXISTS app_reservas;
+CREATE DATABASE IF NOT EXISTS app_picadosYa;
 
 -- Usar la base de datos creada
-USE app_reservas;
+USE app_picadosYa;
 
 -- ====================================================
 -- Tabla de usuarios
