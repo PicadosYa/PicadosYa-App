@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     contrasena VARCHAR(255) NOT NULL, -- Contraseña hasheada
     telefono VARCHAR(20),
     foto_url VARCHAR(255), -- URL a la foto de perfil
-    rol ENUM('cliente', 'propietario', 'admin') NOT NULL, -- Rol de usuario
+    rol ENUM('cliente', 'cancha', 'admin') NOT NULL, -- Rol de usuario, 'cancha' se refiere al login de la cancha
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -28,11 +28,10 @@ VALUES ('Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', 'admin');
 
 -- ====================================================
 -- Tabla de canchas
--- Almacena información de las canchas registradas por los propietarios
+-- Almacena información de las canchas registradas
 -- ====================================================
 CREATE TABLE IF NOT EXISTS canchas (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    propietario_id INT NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     direccion VARCHAR(255) NOT NULL,
     latitud DECIMAL(10, 8), -- Coordenada de latitud para geolocalización
@@ -42,8 +41,7 @@ CREATE TABLE IF NOT EXISTS canchas (
     descripcion TEXT,
     logo_url VARCHAR(255), -- URL al logo de la cancha
     calificacion_promedio DECIMAL(3, 2) DEFAULT 0, -- Promedio de calificaciones de usuarios
-    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (propietario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Índices para mejorar la búsqueda por ubicación y tipo

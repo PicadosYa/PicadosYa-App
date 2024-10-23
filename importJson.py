@@ -29,17 +29,16 @@ for cancha in canchas_data:
     logo_url = cancha.get('logo_url', '')
     latitud = cancha.get('latitud', None)
     longitud = cancha.get('longitud', None)
-    tipo = '5'  # Asumiremos que todas las canchas son de tipo "5" hasta que se indique otro valor
-    precio = 1000.0  # Un precio por defecto hasta que se proporcione
+    tipo = cancha.get('tipo', '5')  # Tipo de cancha, valor por defecto "5" si no se proporciona
+    precio = cancha.get('precio', 1000.0)  # Un precio por defecto hasta que se proporcione
     image_urls = cancha.get('image_urls', [])  # Lista de URLs de las imágenes
 
     # Insertar datos en la tabla "canchas"
     insert_query = (
-        "INSERT INTO canchas (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, descripcion, logo_url) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        "INSERT INTO canchas (nombre, direccion, latitud, longitud, tipo, precio, descripcion, logo_url) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
     )
-    propietario_id = 1  # Asumimos un propietario temporalmente, actualiza esto según corresponda
-    cursor.execute(insert_query, (propietario_id, nombre, direccion, latitud, longitud, tipo, precio, detalle, logo_url))
+    cursor.execute(insert_query, (nombre, direccion, latitud, longitud, tipo, precio, detalle, logo_url))
     cancha_id = cursor.lastrowid
 
     # Insertar las URLs de las imágenes en la tabla "canchas_fotos"
@@ -56,4 +55,5 @@ cursor.close()
 connection.close()
 
 print("Datos insertados correctamente.")
+
 
