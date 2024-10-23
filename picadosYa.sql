@@ -1,197 +1,197 @@
 -- ====================================================
--- Crea la base de datos principal si no existe
+-- Create main database if it does not exist
 -- ====================================================
 CREATE DATABASE IF NOT EXISTS app_picadosYa;
 
--- Usar la base de datos creada
+-- Use the created database
 USE app_picadosYa;
 
 -- ====================================================
--- Tabla de usuarios
--- Almacena información de clientes, propietarios y administradores
+-- Users Table
+-- Stores information about clients, field owners, and administrators
 -- ====================================================
-CREATE TABLE IF NOT EXISTS usuarios (
+CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    apellido VARCHAR(100) NOT NULL,
-    correo_electronico VARCHAR(100) NOT NULL UNIQUE,
-    contrasena VARCHAR(255) NOT NULL, -- Contraseña hasheada
-    telefono VARCHAR(20),
-    foto_url VARCHAR(255), -- URL a la foto de perfil
-    rol ENUM('cliente', 'cancha', 'admin') NOT NULL, -- Rol de usuario, 'cancha' se refiere al login de la cancha
-    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL, -- Hashed password
+    phone VARCHAR(20),
+    profile_picture_url VARCHAR(255), -- URL to profile picture
+    role ENUM('client', 'field', 'admin') NOT NULL, -- User role, 'field' refers to field login
+    registration_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insertar usuario administrador por defecto
-INSERT IGNORE INTO usuarios (nombre, apellido, correo_electronico, contrasena, rol) 
+-- Insert default admin user
+INSERT IGNORE INTO users (first_name, last_name, email, password, role) 
 VALUES ('Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', 'admin');
 
 -- ====================================================
--- Tabla de canchas
--- Almacena información de las canchas registradas
+-- Fields Table
+-- Stores information about the fields registered
 -- ====================================================
-CREATE TABLE IF NOT EXISTS canchas (
+CREATE TABLE IF NOT EXISTS fields (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    direccion VARCHAR(255) NOT NULL,
-    barrio VARCHAR(100),
-    telefono VARCHAR(20),
-    latitud DECIMAL(10, 8), -- Coordenada de latitud para geolocalización
-    longitud DECIMAL(11, 8), -- Coordenada de longitud para geolocalización
-    tipo ENUM('5', '7', '11') NOT NULL, -- Tipo de cancha según número de jugadores
-    precio DECIMAL(10, 2) NOT NULL, -- Precio por reserva
-    descripcion TEXT,
-    logo_url VARCHAR(255), -- URL al logo de la cancha
-    calificacion_promedio DECIMAL(3, 2) DEFAULT 0, -- Promedio de calificaciones de usuarios
-    servicios TEXT, -- Servicios adicionales ofrecidos por la cancha
-    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    neighborhood VARCHAR(100),
+    phone VARCHAR(20),
+    latitude DECIMAL(10, 8), -- Latitude coordinate for geolocation
+    longitude DECIMAL(11, 8), -- Longitude coordinate for geolocation
+    type ENUM('5', '7', '11') NOT NULL, -- Field type based on the number of players
+    price DECIMAL(10, 2) NOT NULL, -- Price per reservation
+    description TEXT,
+    logo_url VARCHAR(255), -- URL to the field logo
+    average_rating DECIMAL(3, 2) DEFAULT 0, -- Average user ratings
+    services TEXT, -- Additional services offered by the field
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Índices para mejorar la búsqueda por ubicación y tipo
-CREATE INDEX idx_canchas_ubicacion ON canchas (latitud, longitud);
-CREATE INDEX idx_canchas_tipo ON canchas (tipo);
+-- Indices to improve search by location and type
+CREATE INDEX idx_fields_location ON fields (latitude, longitude);
+CREATE INDEX idx_fields_type ON fields (type);
 
 -- ====================================================
--- Tabla de fotos de canchas
--- Almacena las URLs de las fotos asociadas a cada cancha
+-- Field Photos Table
+-- Stores URLs of photos associated with each field
 -- ====================================================
-CREATE TABLE IF NOT EXISTS canchas_fotos (
+CREATE TABLE IF NOT EXISTS field_photos (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    cancha_id INT NOT NULL,
-    url_foto VARCHAR(255) NOT NULL,
-    FOREIGN KEY (cancha_id) REFERENCES canchas(id) ON DELETE CASCADE
+    field_id INT NOT NULL,
+    photo_url VARCHAR(255) NOT NULL,
+    FOREIGN KEY (field_id) REFERENCES fields(id) ON DELETE CASCADE
 );
 
 -- ====================================================
--- Tabla de horarios disponibles de las canchas
--- Almacena los horarios en los que una cancha está disponible
+-- Field Availability Table
+-- Stores the schedules when a field is available
 -- ====================================================
-CREATE TABLE IF NOT EXISTS canchas_horarios (
+CREATE TABLE IF NOT EXISTS field_availability (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    cancha_id INT NOT NULL,
-    dia_semana ENUM('lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo') NOT NULL,
-    hora_inicio TIME NOT NULL,
-    hora_fin TIME NOT NULL,
-    disponible BOOLEAN DEFAULT TRUE,
-    FOREIGN KEY (cancha_id) REFERENCES canchas(id) ON DELETE CASCADE
+    field_id INT NOT NULL,
+    day_of_week ENUM('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday') NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    available BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (field_id) REFERENCES fields(id) ON DELETE CASCADE
 );
 
--- Índice para mejorar la búsqueda por cancha y día de la semana
-CREATE INDEX idx_horarios_cancha_dia ON canchas_horarios (cancha_id, dia_semana);
+-- Index to improve search by field and day of the week
+CREATE INDEX idx_availability_field_day ON field_availability (field_id, day_of_week);
 
 -- ====================================================
--- Tabla de reservas
--- Almacena las reservas realizadas por los clientes
+-- Reservations Table
+-- Stores reservations made by clients
 -- ====================================================
-CREATE TABLE IF NOT EXISTS reservas (
+CREATE TABLE IF NOT EXISTS reservations (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    cancha_id INT NOT NULL,
-    usuario_id INT NOT NULL,
-    fecha DATE NOT NULL,
-    hora_inicio TIME NOT NULL,
-    hora_fin TIME NOT NULL,
-    estado ENUM('reservada', 'cancelada', 'completada') DEFAULT 'reservada',
-    fecha_reserva TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (cancha_id) REFERENCES canchas(id) ON DELETE CASCADE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    field_id INT NOT NULL,
+    user_id INT NOT NULL,
+    date DATE NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    status ENUM('reserved', 'canceled', 'completed') DEFAULT 'reserved',
+    reservation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (field_id) REFERENCES fields(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Índice para evitar reservas duplicadas en el mismo horario y cancha
-CREATE UNIQUE INDEX idx_reservas_unicas ON reservas (cancha_id, fecha, hora_inicio, hora_fin);
+-- Index to prevent duplicate reservations for the same field and time slot
+CREATE UNIQUE INDEX idx_unique_reservations ON reservations (field_id, date, start_time, end_time);
 
 -- ====================================================
--- Tabla de pagos
--- Almacena la información de los pagos realizados por los clientes
+-- Payments Table
+-- Stores information about payments made by clients
 -- ====================================================
-CREATE TABLE IF NOT EXISTS pagos (
+CREATE TABLE IF NOT EXISTS payments (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    reserva_id INT NOT NULL,
-    usuario_id INT NOT NULL,
-    monto DECIMAL(10, 2) NOT NULL,
-    metodo_pago ENUM('mercadopago') NOT NULL,
-    estado ENUM('pendiente', 'completado', 'fallido') DEFAULT 'pendiente',
-    fecha_pago TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    mercadopago_id VARCHAR(255), -- ID de la transacción en MercadoPago
-    FOREIGN KEY (reserva_id) REFERENCES reservas(id) ON DELETE CASCADE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    reservation_id INT NOT NULL,
+    user_id INT NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    payment_method ENUM('mercadopago') NOT NULL,
+    status ENUM('pending', 'completed', 'failed') DEFAULT 'pending',
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    mercadopago_id VARCHAR(255), -- MercadoPago transaction ID
+    FOREIGN KEY (reservation_id) REFERENCES reservations(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Índice para búsqueda rápida por estado de pago
-CREATE INDEX idx_pagos_estado ON pagos (estado);
+-- Index for quick search by payment status
+CREATE INDEX idx_payments_status ON payments (status);
 
 -- ====================================================
--- Tabla de calificaciones y comentarios de canchas
--- Almacena las calificaciones y comentarios realizados por los clientes sobre las canchas
+-- Field Ratings and Comments Table
+-- Stores ratings and comments made by clients about fields
 -- ====================================================
-CREATE TABLE IF NOT EXISTS canchas_calificaciones (
+CREATE TABLE IF NOT EXISTS field_ratings (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    cancha_id INT NOT NULL,
-    usuario_id INT NOT NULL,
-    calificacion INT NOT NULL CHECK (calificacion BETWEEN 1 AND 5), -- Calificación de 1 a 5
-    comentario TEXT,
-    fecha_calificacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (cancha_id) REFERENCES canchas(id) ON DELETE CASCADE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    field_id INT NOT NULL,
+    user_id INT NOT NULL,
+    rating INT NOT NULL CHECK (rating BETWEEN 1 AND 5), -- Rating from 1 to 5
+    comment TEXT,
+    rating_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (field_id) REFERENCES fields(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Índice para mejorar la consulta de calificaciones por cancha
-CREATE INDEX idx_calificaciones_cancha ON canchas_calificaciones (cancha_id);
+-- Index to improve search for ratings by field
+CREATE INDEX idx_ratings_field ON field_ratings (field_id);
 
 -- ====================================================
--- Tabla de sesiones
--- Gestiona las sesiones de los usuarios (opcional)
+-- Sessions Table
+-- Manages user sessions (optional)
 -- ====================================================
-CREATE TABLE IF NOT EXISTS sesiones (
+CREATE TABLE IF NOT EXISTS sessions (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,
+    user_id INT NOT NULL,
     token VARCHAR(255) NOT NULL UNIQUE,
-    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    fecha_expiracion TIMESTAMP NOT NULL,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    expiration_date TIMESTAMP NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
 -- ====================================================
--- Tabla de notificaciones
--- Almacena las notificaciones enviadas a los usuarios
+-- Notifications Table
+-- Stores notifications sent to users
 -- ====================================================
-CREATE TABLE IF NOT EXISTS notificaciones (
+CREATE TABLE IF NOT EXISTS notifications (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,
-    tipo ENUM('reserva_confirmada', 'reserva_cancelada', 'otro') NOT NULL,
-    mensaje TEXT NOT NULL,
-    fecha_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    leido BOOLEAN DEFAULT FALSE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    user_id INT NOT NULL,
+    type ENUM('reservation_confirmed', 'reservation_canceled', 'other') NOT NULL,
+    message TEXT NOT NULL,
+    sent_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    read BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Índice para mejorar la consulta de notificaciones por usuario
-CREATE INDEX idx_notificaciones_usuario ON notificaciones (usuario_id, leido);
+-- Index to improve search for notifications by user
+CREATE INDEX idx_notifications_user ON notifications (user_id, read);
 
 -- ====================================================
--- Tabla de registros de exportación
--- Registra las acciones de exportación realizadas por los propietarios
+-- Export Logs Table
+-- Logs export actions performed by field owners
 -- ====================================================
 CREATE TABLE IF NOT EXISTS export_logs (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    propietario_id INT NOT NULL,
-    tipo_export ENUM('csv', 'otro') NOT NULL,
-    fecha_export TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (propietario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    owner_id INT NOT NULL,
+    export_type ENUM('csv', 'other') NOT NULL,
+    export_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (owner_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
 -- ====================================================
--- Tabla de estadísticas de ventas
--- Almacena datos para generar informes y gráficos de ventas
+-- Sales Statistics Table
+-- Stores data for generating sales reports and charts
 -- ====================================================
-CREATE TABLE IF NOT EXISTS estadisticas_ventas (
+CREATE TABLE IF NOT EXISTS sales_statistics (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    propietario_id INT NOT NULL,
-    mes INT NOT NULL CHECK (mes BETWEEN 1 AND 12),
-    anio INT NOT NULL,
-    total_reservas INT DEFAULT 0,
-    ingresos DECIMAL(10, 2) DEFAULT 0,
-    FOREIGN KEY (propietario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+    owner_id INT NOT NULL,
+    month INT NOT NULL CHECK (month BETWEEN 1 AND 12),
+    year INT NOT NULL,
+    total_reservations INT DEFAULT 0,
+    income DECIMAL(10, 2) DEFAULT 0,
+    FOREIGN KEY (owner_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Índice para mejorar la consulta de estadísticas por propietario, año y mes
-CREATE INDEX idx_estadisticas_propietario_fecha ON estadisticas_ventas (propietario_id, anio, mes);
+-- Index to improve search for statistics by owner, year, and month
+CREATE INDEX idx_statistics_owner_date ON sales_statistics (owner_id, year, month);

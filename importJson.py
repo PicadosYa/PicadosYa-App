@@ -1,83 +1,88 @@
 import json
-import mysql.connector 
+import mysql.connector
 import subprocess
 import requests
 import time
 
-# Crear la base de datos desde el archivo SQL
-subprocess.run(["mysql", "-u", "root", "-p", "password", "<", "/mnt/data/picadosYa.sql"], shell=True)
+### ****************************************************** ###
+###                FIELDS - JSON DATA IMPORT               ###
+### ****************************************************** ###
 
-# Leer los datos del JSON
+# Create the database from the SQL file
+subprocess.run(["mysql", "-u", "your_user", "-p", "your_password", "<", "/mnt/data/picadosYa.sql"], shell=True)
+
+# Read data from JSON
 with open('/mnt/data/canchas_info.json', 'r') as file:
-    canchas_data = json.load(file)
+    fields_data = json.load(file)
 
-# Función para obtener latitud y longitud usando la API de Google Maps
-def obtener_coordenadas(direccion):
-    api_key = "tu_api_key_google_maps"
+# Function to get latitude and longitude using Google Maps API
+def get_coordinates(address):
+    api_key = "your_google_maps_api_key"
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    parametros = {"address": direccion, "key": api_key}
-    response = requests.get(base_url, params=parametros)
-    resultado = response.json()
-    if resultado['status'] == 'OK':
-        ubicacion = resultado['results'][0]['geometry']['location']
-        return ubicacion['lat'], ubicacion['lng']
+    params = {"address": address, "key": api_key}
+    response = requests.get(base_url, params=params)
+    result = response.json()
+    if result['status'] == 'OK':
+        location = result['results'][0]['geometry']['location']
+        return location['lat'], location['lng']
     else:
         return None, None
 
-# Conectar a la base de datos MySQL
+# Connect to MySQL database
 connection = mysql.connector.connect(
-    host='localhost',  # Cambia esto por la dirección de tu base de datos
-    user='tu_usuario',  # Cambia esto por tu usuario de MySQL
-    password='tu_contrasena',  # Cambia esto por tu contraseña de MySQL
+    host='localhost',  # Change this to your database address
+    user='your_user',  # Change this to your MySQL user
+    password='your_password',  # Change this to your MySQL password
     database='app_picadosYa'
 )
 cursor = connection.cursor()
 
-# Insertar datos en la tabla "canchas"
-for cancha in canchas_data:
-    # Extraer los datos necesarios del JSON
-    nombre = cancha.get('nombre')
-    direccion = cancha.get('direccion')
-    barrio = cancha.get('barrio', '')
-    telefono = cancha.get('telefono', '')
-    detalle = cancha.get('detalle', '')
-    logo_url = cancha.get('logo_url', '')
-    tipo = cancha.get('tipo', '5')  # Tipo de cancha, valor por defecto "5" si no se proporciona
-    precio = cancha.get('precio', 1000.0)  # Un precio por defecto hasta que se proporcione
-    servicios = cancha.get('servicios', '')
-    image_urls = cancha.get('image_urls', [])  # Lista de URLs de las imágenes
+# Insert data into "fields" table
+for field in fields_data:
+    # Extract necessary data from JSON
+    name = field.get('nombre')
+    address = field.get('direccion')
+    neighborhood = field.get('barrio', '')
+    phone = field.get('telefono', '')
+    description = field.get('detalle', '')
+    logo_url = field.get('logo_url', '')
+    type = field.get('tipo', '5')  # Default field type "5" if not provided
+    price = field.get('precio', 1000.0)  # Default price if not provided
+    services = field.get('servicios', '')
+    image_urls = field.get('image_urls', [])  # List of image URLs
 
-    # Obtener latitud y longitud desde la dirección utilizando la API de Google Maps
-    latitud, longitud = obtener_coordenadas(direccion)
-    if latitud is None or longitud is None:
-        print(f"No se pudo obtener las coordenadas para la dirección: {direccion}")
+    # Get latitude and longitude from address using Google Maps API
+    latitude, longitude = get_coordinates(address)
+    if latitude is None or longitude is None:
+        print(f"Unable to get coordinates for address: {address}")
         continue
 
-    # Insertar datos en la tabla "canchas"
+    # Insert data into "fields" table
     insert_query = (
-        "INSERT INTO canchas (nombre, direccion, barrio, telefono, latitud, longitud, tipo, precio, descripcion, logo_url, servicios) "
+        "INSERT INTO fields (name, address, neighborhood, phone, latitude, longitude, type, price, description, logo_url, services) "
         "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     )
-    cursor.execute(insert_query, (nombre, direccion, barrio, telefono, latitud, longitud, tipo, precio, detalle, logo_url, servicios))
-    cancha_id = cursor.lastrowid
+    cursor.execute(insert_query, (name, address, neighborhood, phone, latitude, longitude, type, price, description, logo_url, services))
+    field_id = cursor.lastrowid
 
-    # Insertar las URLs de las imágenes en la tabla "canchas_fotos"
+    # Insert image URLs into "field_photos" table
     for url in image_urls:
-        insert_foto_query = (
-            "INSERT INTO canchas_fotos (cancha_id, url_foto) "
+        insert_photo_query = (
+            "INSERT INTO field_photos (field_id, photo_url) "
             "VALUES (%s, %s)"
         )
-        cursor.execute(insert_foto_query, (cancha_id, url))
+        cursor.execute(insert_photo_query, (field_id, url))
 
-    # Pausar para evitar exceder la cuota de la API de Google Maps
+    # Pause to avoid exceeding Google Maps API quota
     time.sleep(1)
 
-# Confirmar los cambios y cerrar la conexión
+# Commit changes and close connection
 connection.commit()
 cursor.close()
 connection.close()
 
-print("Datos insertados correctamente.")
+print("Data inserted successfully.")
+
 
 
 
