@@ -19,12 +19,13 @@ CREATE TABLE IF NOT EXISTS users (
     phone VARCHAR(20),
     profile_picture_url VARCHAR(255), -- URL to profile picture
     role ENUM('client', 'field', 'admin') NOT NULL, -- User role, 'field' refers to field login
+    position_player VARCHAR(100) NOT NULL,
     registration_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Insert default admin user
-INSERT IGNORE INTO users (first_name, last_name, email, password, role) 
-VALUES ('Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', 'admin');
+INSERT IGNORE INTO users (first_name, last_name, email, password, role, position_player) 
+VALUES ('Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', 'admin', 'mediocampista');
 
 -- ====================================================
 -- Fields Table
@@ -160,12 +161,12 @@ CREATE TABLE IF NOT EXISTS notifications (
     type ENUM('reservation_confirmed', 'reservation_canceled', 'other') NOT NULL,
     message TEXT NOT NULL,
     sent_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    read BOOLEAN DEFAULT FALSE,
+    read_status BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
 -- Index to improve search for notifications by user
-CREATE INDEX idx_notifications_user ON notifications (user_id, read);
+CREATE INDEX idx_notifications_user ON notifications (user_id, read_status);
 
 -- ====================================================
 -- Export Logs Table
