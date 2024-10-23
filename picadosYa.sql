@@ -8,7 +8,7 @@ USE app_picadosYa;
 
 -- ====================================================
 -- Tabla de usuarios
--- Almacena información de clientes y propietarios
+-- Almacena información de clientes, propietarios y administradores
 -- ====================================================
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -17,10 +17,14 @@ CREATE TABLE IF NOT EXISTS usuarios (
     correo_electronico VARCHAR(100) NOT NULL UNIQUE,
     contrasena VARCHAR(255) NOT NULL, -- Contraseña hasheada
     telefono VARCHAR(20),
-    foto_perfil VARCHAR(255), -- URL o ruta a la foto de perfil
-    rol ENUM('cliente', 'propietario') NOT NULL,
+    foto_url VARCHAR(255), -- URL a la foto de perfil
+    rol ENUM('cliente', 'propietario', 'admin') NOT NULL, -- Rol de usuario
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Insertar usuario administrador por defecto
+INSERT IGNORE INTO usuarios (nombre, apellido, correo_electronico, contrasena, rol) 
+VALUES ('Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', 'admin');
 
 -- ====================================================
 -- Tabla de canchas
@@ -36,6 +40,7 @@ CREATE TABLE IF NOT EXISTS canchas (
     tipo ENUM('5', '7', '11') NOT NULL, -- Tipo de cancha según número de jugadores
     precio DECIMAL(10, 2) NOT NULL, -- Precio por reserva
     descripcion TEXT,
+    logo_url VARCHAR(255), -- URL al logo de la cancha
     calificacion_promedio DECIMAL(3, 2) DEFAULT 0, -- Promedio de calificaciones de usuarios
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (propietario_id) REFERENCES usuarios(id) ON DELETE CASCADE
@@ -189,4 +194,3 @@ CREATE TABLE IF NOT EXISTS estadisticas_ventas (
 
 -- Índice para mejorar la consulta de estadísticas por propietario, año y mes
 CREATE INDEX idx_estadisticas_propietario_fecha ON estadisticas_ventas (propietario_id, anio, mes);
-
