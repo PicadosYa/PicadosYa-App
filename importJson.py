@@ -9,7 +9,7 @@ import time
 ### ****************************************************** ###
 
 # Create the database from the SQL file
-subprocess.run(["mysql", "-u", "your_user", "-p", "your_password", "<", "/mnt/data/picadosYa.sql"], shell=True)
+subprocess.run(["mysql", "-u", "root", "-p", "password", "<", "/mnt/data/picadosYa.sql"], shell=True)
 
 # Read data from JSON
 with open('/mnt/data/canchas_info.json', 'r') as file:
@@ -17,7 +17,7 @@ with open('/mnt/data/canchas_info.json', 'r') as file:
 
 # Function to get latitude and longitude using Google Maps API
 def get_coordinates(address):
-    api_key = "your_google_maps_api_key"
+    api_key = "Google_maps_api_key_XXXXXXXXXXXXXX"
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
     params = {"address": address, "key": api_key}
     response = requests.get(base_url, params=params)
@@ -31,9 +31,9 @@ def get_coordinates(address):
 # Connect to MySQL database
 connection = mysql.connector.connect(
     host='localhost',  # Change this to your database address
-    user='your_user',  # Change this to your MySQL user
-    password='your_password',  # Change this to your MySQL password
-    database='app_picadosYa'
+    user='root',  # Change this to your MySQL user
+    password='password',  # Change this to your MySQL password
+    database='picadosYa'
 )
 cursor = connection.cursor()
 
