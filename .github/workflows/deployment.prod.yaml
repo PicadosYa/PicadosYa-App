@@ -48,14 +48,26 @@ jobs:
           docker push picadosya/picados-ya-backend
 
   deploy:
-    runs-on: aws-picados-ya
+    runs-on: aws-picadosya
     needs: [avoid_redundancy, build]
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           submodules: recursive
+      - name: Authorize Git
+        run: |
+          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --global user.name "$GITHUB_ACTOR"
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive --remote -f
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
       - name: Stop Docker Compose
         run: sudo docker compose -f docker-compose.prod.yml down
       - name: Remove old Docker images

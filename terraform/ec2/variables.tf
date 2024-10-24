@@ -24,7 +24,7 @@ variable "ec2_tag_ambiente" {
 
 variable "security_group_name" {
   type    = string
-  default = "sec-group-test"
+  default = "sec-group-picadosya"
 }
 
 # Esto es UTC, nosotros somo UTC -3
