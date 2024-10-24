@@ -4,8 +4,11 @@ services:
   # ====================
   frontend:
     image: picadosya/picados-ya-frontend
+    container_name: picados-ya-frontend
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
+    depends_on:
+      - backend
 
   # ====================
   # Base de datos
@@ -26,6 +29,7 @@ services:
 
   backend:
     image: picadosya/picados-ya-backend
+    container_name: picados-ya-backend
     ports:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     depends_on:
