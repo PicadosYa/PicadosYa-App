@@ -19,9 +19,9 @@
 -- Current Database: `app_picadosYa`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `app_picadosYa` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `picadosya` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-USE `app_picadosYa`;
+USE `picadosya`;
 
 --
 -- Table structure for table `export_logs`
