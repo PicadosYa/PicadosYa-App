@@ -1,10 +1,10 @@
 -- ====================================================
 -- Create main database if it does not exist
 -- ====================================================
-CREATE DATABASE IF NOT EXISTS app_picadosYa;
+CREATE DATABASE IF NOT EXISTS picadosya;
 
 -- Use the created database
-USE app_picadosYa;
+USE picadosya;
 
 -- ====================================================
 -- Users Table
