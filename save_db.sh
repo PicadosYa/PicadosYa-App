@@ -14,7 +14,7 @@ else
 fi
 
 # 🔍 Verificar que todas las variables necesarias estén definidas
-for var in DB_USER DB_PASS DB_DATABASE BACKUP_PATH; do
+for var in DB_USER DB_PASS DB_PORT DB_DATABASE BACKUP_PATH; do
     if [ -z "${!var}" ]; then
         echo "⚠️  Error: La variable $var no está definida en el archivo .env"
         exit 1
@@ -51,6 +51,7 @@ if command -v mysqldump &> /dev/null; then
         --user=${DB_USER} \
         --password=${DB_PASS} \
         --host=127.0.0.1 \
+        --port=${DB_PORT:-3306} \
         --routines \
         --events \
         --triggers \
@@ -85,6 +86,7 @@ else
         --user=${DB_USER} \
         --password=${DB_PASS} \
         --host=127.0.0.1 \
+        --port=${DB_PORT:-3306} \
         --routines \
         --events \
         --triggers \
