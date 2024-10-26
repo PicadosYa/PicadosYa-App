@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.39, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: app_picadosYa
+-- Host: 127.0.0.1    Database: picadosya
 -- ------------------------------------------------------
 -- Server version	8.0.40
 
@@ -16,8 +16,10 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `app_picadosYa`
+-- Current Database: `picadosya`
 --
+
+/*!40000 DROP DATABASE IF EXISTS `picadosya`*/;
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `picadosya` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
@@ -421,7 +423,11 @@ INSERT INTO `users` VALUES (1,'Admin','Admin','admin@picadosya.com','hashed_pass
 UNLOCK TABLES;
 
 --
--- Dumping routines for database 'app_picadosYa'
+-- Dumping events for database 'picadosya'
+--
+
+--
+-- Dumping routines for database 'picadosya'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `GetFieldReservationsByMonthAndId` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -608,4 +614,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-25  2:15:29
+-- Dump completed on 2024-10-26 10:57:44
