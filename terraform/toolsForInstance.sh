@@ -15,18 +15,6 @@ check_exit_code "Error al clonar el repositorio de scripts" "Clonando repositori
 ./installDocker.sh && rm -rf ./installDocker.sh
 check_exit_code "Fallo la instalacion de Docker" "instalando Docker y eliminando archivos y directorios inecesarios."
 
-sudo apt install -y certbot python3-certbot-nginx
-
-mkdir duckdns
-
-cat <<EOL | sudo tee ./duckdns/duck.sh
-#!/bin/bash
-echo url="https://www.duckdns.org/update?domains=midominio&token=TOKEN&ip=" | curl -k -o duck.log -K -
-EOL
-
-sudo chmod +x ./duckdns/duck.sh
-
-
 cat <<EOL | sudo tee /etc/systemd/system/github-runner.service
 [Unit]
 Description=GitHub Actions Runner
@@ -43,10 +31,10 @@ RestartSec=10
 WantedBy=multi-user.target
 EOL
 
-mkdir actions-runner && cd actions-runner
+mkdir actions-runner && cd actions-runner &&
 
-curl -o actions-runner-linux-x64-2.320.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.320.0/actions-runner-linux-x64-2.320.0.tar.gz
+curl -o actions-runner-linux-x64-2.320.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.320.0/actions-runner-linux-x64-2.320.0.tar.gz &&
 
-echo "93ac1b7ce743ee85b5d386f5c1787385ef07b3d7c728ff66ce0d3813d5f46900  actions-runner-linux-x64-2.320.0.tar.gz" | shasum -a 256 -c
+echo "93ac1b7ce743ee85b5d386f5c1787385ef07b3d7c728ff66ce0d3813d5f46900  actions-runner-linux-x64-2.320.0.tar.gz" | shasum -a 256 -c &&
 
 tar xzf ./actions-runner-linux-x64-2.320.0.tar.gz
