@@ -3,27 +3,38 @@ services:
   # Frontend
   # ====================
   # frontend:
-  #   build:
-  #     context: ./Frontend
-  #     dockerfile: Dockerfile.dev
+  #   image: picadosya/picados-ya-frontend
   #   container_name: picados-ya-frontend
   #   ports:
   #     - ${FRONTEND_PORT}:${FRONTEND_PORT}
+  #   depends_on:
+  #     - backend
 
   # ====================
   # Base de datos
   # ====================
   mysql:
     image: mysql:8.0
-    container_name: picados-ya-mysql
+    container_name: picados-ya-db
     environment:
-      MYSQL_ROOT_PASSWORD: pass123
-      MYSQL_DATABASE: app_picadosYa
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "3308:3306"
+      - ${DB_PORT}:${DB_PORT}
     volumes:
-      - mysql_data:/var/lib/mysql
-      - ./dump_app_picadosYa.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysql_volume:/var/lib/mysql
+    restart: unless-stopped
+
+  backend:
+    image: picadosya/picados-ya-backend
+    container_name: picados-ya-backend
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+    depends_on:
+      - mysql
 
 volumes:
-  mysql_data:
+  mysql_volume:
+    driver: local
