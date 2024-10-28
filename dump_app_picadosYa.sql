@@ -404,6 +404,7 @@ CREATE TABLE `users` (
   `profile_picture_url` varchar(255) DEFAULT NULL,
   `role` enum('client','field','admin') NOT NULL,
   `position_player` varchar(100) NOT NULL,
+  `age` int NOT NULL,
   `registration_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
@@ -416,7 +417,9 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Admin','Admin','admin@picadosya.com','hashed_password',NULL,NULL,'admin','mediocampista','2024-10-23 22:48:12'),(2,'User','User','user@gmail.com','hashed_password',NULL,NULL,'client','delantero','2024-10-24 18:33:15');
+INSERT INTO `users` VALUES 
+(1, 'Admin', 'Admin', 'admin@picadosya.com', 'hashed_password', NULL, NULL, 'admin', 'mediocampista', 30, '2024-10-23 22:48:12'),
+(2, 'User', 'User', 'user@gmail.com', 'hashed_password', NULL, NULL, 'client', 'delantero', 25, '2024-10-24 18:33:15');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
