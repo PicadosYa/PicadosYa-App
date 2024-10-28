@@ -17,23 +17,22 @@ services:
     image: mysql:8.0
     container_name: picados-ya-db
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASS:?error}
+      MYSQL_DATABASE: ${DB_DATABASE:?error}
     ports:
-      - ${DB_PORT}:${DB_PORT}
+      - "${DB_PORT:?error}:3306"
     volumes:
       - mysql_volume:/var/lib/mysql
-    restart: unless-stopped
-
-  backend:
-    image: picadosya/picados-ya-backend
-    container_name: picados-ya-backend
-    ports:
-      - ${BACKEND_PORT}:${BACKEND_PORT}
+  migrations:
+    image: migrate/migrate
+    volumes:
+      - ./migrations:/migrations
+      - ./scripts/wait-for-it.sh:/wait-for-it.sh
+      - .env:/.env  # Monta el script en el contenedor
+    entrypoint: ["sh", "./wait-for-it.sh"]
     depends_on:
-      - mysql
+      mysql:
+        condition: service_started
 
 volumes:
   mysql_volume:
