@@ -49,7 +49,7 @@ clean_and_restart() {
     docker rm -f mysql_container 2>/dev/null || true
 
     echo "🗑️  Eliminando volumen mysql_data..."
-    docker volume rm picadosya-app_mysql_data 2>/dev/null || true
+    docker volume rm picadosya-app_mysql_volume 2>/dev/null || true
 
     echo "🚀 Iniciando contenedores limpios..."
     docker compose up -d
