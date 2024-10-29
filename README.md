@@ -51,12 +51,12 @@ Para levantar el backend y la BD, es <b>CRUCIAL</b> crear un `.env` en la raiz d
 Para levantar y <b>CARGAR AUTOMATICAMENTE LOS DATOS A LA BD LOCAL</b>, es necesario ejecutar `docker compose up -d` Esto borrará todos los datos y cargará todos nuevamente de `/migrations`
 
 ## Modificar DB
-para modificar la DB, se usará el sistema de migraciones [(Mas información aquí)](https://github.com/PicadosYa/PicadosYa-App/pull/26])
+para modificar la DB, se usará el sistema de migraciones [(Mas información aquí)](https://github.com/PicadosYa/PicadosYa-App/pull/26)
 
 - Se deberá ejecutar el script `./scripts/create_migration.sh NAME_OF_CHANGE` </br></br>
 `NAME_OF_CHANGE`: Es el nombre de la modificacion ej: `./scripts/create_migration.sh create_user_table`
 
-- Luego dentro de los scripts sql, generados debes colocar tus cambios [(Mas información aquí)](https://github.com/PicadosYa/PicadosYa-App/pull/26])
+- Luego dentro de los scripts sql, generados debes colocar tus cambios [(Mas información aquí)](https://github.com/PicadosYa/PicadosYa-App/pull/26)
 
 - Ejecutar `docker compose up -d`: Borrará TODO lo que haya y ejecutará los scripts nuevamente
 
@@ -94,6 +94,6 @@ Ejemplo:
 ```
 > ⚠️ IMPORTANTE: Usar `force` solo en casos donde las migraciones están en un estado inconsistente y no se pueden resolver con `down`. Este comando puede causar pérdida de datos si no se usa correctamente.
 
-### [Mas información aquí](https://github.com/PicadosYa/PicadosYa-App/pull/26])
+### [Mas información aquí](https://github.com/PicadosYa/PicadosYa-App/pull/26)
 
 
