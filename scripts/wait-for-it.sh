@@ -43,8 +43,8 @@ done
 
 echo "MySQL está disponible en $HOST:$PORT."
 
-ls /migrations
+ls ../migrations
 # Ejecutar las migraciones
-migrate -verbose -path /migrations -database "mysql://root:${DB_PASS}@tcp(${HOST}:${PORT})/${DB_DATABASE}" drop -f
+migrate -verbose -path ../migrations -database "mysql://root:${DB_PASS}@tcp(${HOST}:${PORT})/${DB_DATABASE}" drop -f
 
-migrate -verbose -path /migrations -database "mysql://root:${DB_PASS}@tcp(${HOST}:${PORT})/${DB_DATABASE}?multiStatements=true" up 
+migrate -verbose -path ../migrations -database "mysql://root:${DB_PASS}@tcp(${HOST}:${PORT})/${DB_DATABASE}?multiStatements=true" up 
