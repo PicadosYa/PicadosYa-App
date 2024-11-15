@@ -48,7 +48,7 @@ jobs:
           docker push picadosya/picados-ya-backend
 
   deploy:
-    runs-on: aws-picadosya
+    runs-on: picadosya
     needs: [avoid_redundancy, build]
     steps:
       - name: Run a simple command

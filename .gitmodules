@@ -4,3 +4,6 @@
 [submodule "Backend"]
 	path = Backend
 	url = https://github.com/PicadosYa/Backend
+[submodule "cenapp"]
+	path = cenapp
+	url = https://github.com/PicadosYa/cenapp.git
