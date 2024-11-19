@@ -3,7 +3,10 @@ services:
   # Frontend
   # ====================
   frontend:
-    image: picadosya/picados-ya-frontend
+    # image: picadosya/picados-ya-frontend
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile.prod
     container_name: picados-ya-frontend
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
@@ -17,29 +20,46 @@ services:
     image: mysql:8.0
     container_name: picados-ya-db
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${DB_PASS}
+      - MYSQL_DATABASE=${DB_DATABASE:?error}
+      - MYSQL_USER=${DB_USER} # Esta es la variable que defines para el nombre de usuario (en tu caso 'picadosya')
+      - MYSQL_PASSWORD=${DB_PASS}
     ports:
-      - ${DB_PORT}:${DB_PORT}
+      - "${DB_PORT:?error}:3306"
     volumes:
       - mysql_volume:/var/lib/mysql
+      - ../dump_app_picadosYa.sql:/docker-entrypoint-initdb.d/init.sql
     restart: unless-stopped
 
+  migrations:
+    image: migrate/migrate
+    volumes:
+      - ./migrations:/migrations
+      - ./scripts/wait-for-it.sh:/wait-for-it.sh
+      - .env:/.env # Monta el script en el contenedor
+    entrypoint: ["sh", "./wait-for-it.sh"]
+    depends_on:
+      mysql:
+        condition: service_started
+
   backend:
-    image: picadosya/picados-ya-backend
+    # image: picadosya/picados-ya-backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile.prod
     container_name: picados-ya-backend
     ports:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     depends_on:
       - mysql
     environment:
-      MYSQL_HOST: mysql
-      MYSQL_PORT: ${DB_PORT}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_DATABASE: ${DB_DATABASE}
+    volumes:
+      - .env:/.env
 
 volumes:
   mysql_volume:

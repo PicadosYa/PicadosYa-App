@@ -11,9 +11,9 @@ resource "aws_instance" "instance_linux" {
   user_data = file("toolsForInstance.sh")
 }
 
-# output "URL" {
-#   value = "http://${aws_instance.instance_linux.public_ip}:8080"
-# }
+output "URL" {
+  value = "http://${aws_instance.instance_linux.public_ip}"
+}
 
 resource "aws_security_group" "security_group_terraform" {
   name = var.security_group_name
@@ -25,13 +25,21 @@ resource "aws_security_group" "security_group_terraform" {
     protocol    = "tcp"
   }
 
-  # ingress {
-  #   cidr_blocks = ["0.0.0.0/0"]
-  #   description = "Web Server"
-  #   from_port   = 8080
-  #   to_port     = 8080
-  #   protocol    = "tcp"
-  # }
+  ingress {
+    cidr_blocks = ["0.0.0.0/0"]
+    description = "Backend"
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+  }
+
+  ingress {
+    cidr_blocks = ["0.0.0.0/0"]
+    description = "MySQL"
+    from_port   = 3306
+    to_port     = 3306
+    protocol    = "tcp"
+  }
 
   ingress {
     from_port   = 80
