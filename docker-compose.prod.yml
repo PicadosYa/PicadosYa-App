@@ -3,10 +3,10 @@ services:
   # Frontend
   # ====================
   frontend:
-    # image: picadosya/picados-ya-frontend
-    build:
-      context: ./Frontend
-      dockerfile: Dockerfile.prod
+    image: picadosya/picados-ya-frontend
+    # build:
+    #   context: ./Frontend
+    #   dockerfile: Dockerfile.prod
     container_name: picados-ya-frontend
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
@@ -43,10 +43,10 @@ services:
         condition: service_started
 
   backend:
-    # image: picadosya/picados-ya-backend
-    build:
-      context: ./Backend
-      dockerfile: Dockerfile.prod
+    image: picadosya/picados-ya-backend
+    # build:
+    #   context: ./Backend
+    #   dockerfile: Dockerfile.prod
     container_name: picados-ya-backend
     ports:
       - ${BACKEND_PORT}:${BACKEND_PORT}
