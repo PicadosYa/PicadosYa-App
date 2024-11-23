@@ -2,7 +2,6 @@
 DROP PROCEDURE IF EXISTS `InsertReservation`;
 
 -- Nuevo procedure para InsertReservation
-DELIMITER $$
 
 CREATE PROCEDURE `InsertReservation`(
     IN p_field_id INT,
@@ -14,13 +13,9 @@ CREATE PROCEDURE `InsertReservation`(
 BEGIN
     INSERT INTO reservations (field_id, user_id, date, start_time, end_time)
     VALUES (p_field_id, p_user_id, p_date, p_start_time, p_end_time);
-END$$
-
-DELIMITER ;
+END;
 
 -- Siguiente procedure para obtener las reservas por usuario
-DELIMITER $$
-
 CREATE PROCEDURE GetReservationsByUserId(IN userId INT)
 BEGIN
     SELECT 
@@ -38,6 +33,4 @@ BEGIN
         fields f ON r.field_id = f.id
     WHERE 
         u.id = userId;
-END $$
-
-DELIMITER ;
+END;
