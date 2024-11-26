@@ -7,8 +7,6 @@ CREATE TABLE `user_favorite_fields` (
   FOREIGN KEY (`field_id`) REFERENCES `fields` (`id`) ON DELETE CASCADE
 );
 
-DELIMITER $$
-
 CREATE PROCEDURE GetFavoriteFieldsByUser(
     IN userId INT
 )
@@ -17,12 +15,7 @@ BEGIN
     FROM `fields` f
     JOIN `user_favorite_fields` uff ON f.id = uff.field_id
     WHERE uff.user_id = userId;
-END$$
-
-DELIMITER ;
-
-
-DELIMITER $$
+END;
 
 CREATE PROCEDURE GetUsersByFavoriteField(
     IN fieldId INT
@@ -32,13 +25,7 @@ BEGIN
     FROM `users` u
     JOIN `user_favorite_fields` uff ON u.id = uff.user_id
     WHERE uff.field_id = fieldId;
-END$$
-
-DELIMITER ;
-
-
-
-DELIMITER $$
+END;
 
 CREATE PROCEDURE GET_USER_FAVORITE_FIELDS(
     IN USER_ID INT
@@ -57,6 +44,4 @@ BEGIN
         users U ON U.ID = UFF.USER_ID
     WHERE 
         U.ID = USER_ID;
-END$$
-
-DELIMITER ;
+END;
