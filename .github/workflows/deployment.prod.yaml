@@ -11,7 +11,7 @@ jobs:
       - name: Cancel Previous Redundant Deployments
         uses: styfle/cancel-workflow-action@0.12.1
         with:
-          access_token: ${{github.token}}
+          access_token: ${{ github.token }}
 
   build:
     runs-on: ubuntu-latest
@@ -24,46 +24,42 @@ jobs:
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           submodules: recursive
+
       - name: Authorize Git
         run: |
           git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config --global user.name "$GITHUB_ACTOR"
+
       - name: Update submodules
-        run: |
-          git submodule update --init --recursive --remote -f
+        run: git submodule update --init --recursive --remote -f
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-      - name: Creating .env file
-        run: |
-          cp .env.prod .env
+
+      - name: Execute Deployment Script (init_prod.sh)
+        run: bash ./init_prod.sh
+
       - name: Log in to Docker Hub
         run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+
       - name: Build Docker images
         run: |
           docker build -f Frontend/Dockerfile.prod -t picadosya/picados-ya-frontend ./Frontend
           docker build -f Backend/Dockerfile.prod -t picadosya/picados-ya-backend ./Backend
+
       - name: Push Docker images to Docker Hub
         run: |
           docker push picadosya/picados-ya-frontend
           docker push picadosya/picados-ya-backend
 
   deploy:
-    runs-on: picadosya
+    runs-on: aws-ec2
     needs: [avoid_redundancy, build]
     steps:
-      - name: Run a simple command
-        run: echo "Hello, World!"
-      # - name: Checkout repository
-      #   uses: actions/checkout@v4
-      #   with:
-      #     token: ${{ secrets.REPO_ACCESS_TOKEN }}
-      #     submodules: recursive
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
 
-      # - name: Stop Docker Compose
-      #   run: sudo docker compose -f docker-compose.prod.yml down
-      # - name: Remove old Docker images
-      #   run: |
-      #     sudo docker rmi picadosya/picados-ya-frontend
-      #     sudo docker rmi picadosya/picados-ya-backend
-      # - name: Start Docker Compose with new images
-      #   run: sudo docker compose -f docker-compose.prod.yml up -d
+      - name: Deploy with Docker Compose
+        run: |
+          sudo docker compose -f docker-compose.prod.yml up -d
