@@ -33,8 +33,8 @@ echo "🐳 Starting Docker Compose services..."
 <<<<<<< HEAD
 docker compose up -d
 =======
-sudo docker compose up -d
->>>>>>> cde60f7fe6494c37571c4db25685d4dda609a96f
+ docker compose up -dsudocde60f7fe6494c37571c4db25685d4dda609a96f
+>>>>>>> 
 if [ $? -ne 0 ]; then
   echo "❌ Docker Compose failed to start services."
   exit 1
