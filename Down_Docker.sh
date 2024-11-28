@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo docker compose -f docker-compose.prod.yml down
+sudo docker compose -f docker-compose.yaml down
 
 sudo docker image rm picadosya-app-frontend picadosya-app-backend
 
