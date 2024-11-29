@@ -30,7 +30,7 @@ echo "✅ All required environment variables are set."
 
 # Levantar servicios con Docker Compose
 echo "🐳 Starting Docker Compose services..."
-docker-compose up -d
+docker compose up -d
 if [ $? -ne 0 ]; then
   echo "❌ Docker Compose failed to start services."
   exit 1
