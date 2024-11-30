@@ -1,3 +1,6 @@
+ALTER TABLE fields 
+ADD COLUMN status BOOLEAN NULL DEFAULT TRUE;
+
 CREATE PROCEDURE GetFieldsByOwnerId (
     IN p_user_id INT
 )
