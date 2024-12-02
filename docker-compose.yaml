@@ -41,6 +41,24 @@ services:
     depends_on:
       mysql:
         condition: service_started
+  #backend:
+    # image: picadosya/picados-ya-backend
+  #  build:
+  #    context: ./Backend
+  #    dockerfile: Dockerfile.prod
+  #  container_name: picados-ya-backend
+  #  ports:
+  #    - ${BACKEND_PORT}:${BACKEND_PORT}
+  #  depends_on:
+  #    - mysql
+  #  environment:
+  #    DB_HOST: ${DB_HOST}
+  #    DB_PORT: ${DB_PORT}
+  #    DB_USER: ${DB_USER}
+  #    DB_PASS: ${DB_PASS}
+  #    DB_DATABASE: ${DB_DATABASE}
+  #  volumes:
+  #    - .env:/.env
 
 
 volumes:
