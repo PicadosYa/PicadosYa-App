@@ -1,6 +1,9 @@
 ALTER TABLE fields 
 ADD COLUMN status BOOLEAN NULL DEFAULT TRUE;
 
+ALTER TABLE fields ADD COLUMN user_id INT NULL AFTER id;
+ALTER TABLE fields ADD CONSTRAINT fk_fields_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE;
+
 CREATE PROCEDURE GetFieldsByOwnerId (
     IN p_user_id INT
 )
