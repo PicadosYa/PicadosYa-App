@@ -79,3 +79,31 @@ BEGIN
         r.id ASC;
 	END;
     
+CREATE PROCEDURE GetReservationsPerOwnerByMonthAndHour(
+    IN OwnerID INT,
+    IN MonthsAgo INT,
+    IN Hour INT
+)
+BEGIN
+    SELECT 
+        CONCAT(s.first_name, " ", s.last_name) AS user_name,
+        f.name AS field_name,
+        r.date AS date,
+        r.start_time AS start_time,
+        r.end_time AS end_time,
+        f.type AS type,
+        f.phone AS phone,
+        r.status
+    FROM 
+        reservations r
+    INNER JOIN 
+        fields f ON f.id = r.field_id
+    INNER JOIN 
+        users s ON r.user_id = s.id
+    WHERE 
+        f.user_id = OwnerID
+        AND r.date >= DATE_SUB(CURDATE(), INTERVAL MonthsAgo MONTH)
+        AND HOUR(r.start_time) = Hour                               
+    ORDER BY 
+        r.id ASC;
+	END;
