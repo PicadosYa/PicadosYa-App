@@ -41,7 +41,7 @@ SET role = 'field'
 WHERE id = 414;
 
 UPDATE fields 
-SET user_id = 303 
+SET user_id = 587 
 WHERE id = 6;
 
 UPDATE users 

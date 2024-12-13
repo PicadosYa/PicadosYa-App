@@ -3,6 +3,8 @@ CREATE PROCEDURE `GetFieldReservationsByMonthAndId`(
     IN p_month VARCHAR(7) -- formato 'YYYY-MM'
 )
 BEGIN
+    SET SESSION group_concat_max_len = 32000;
+
     SELECT 
         f.id,
         f.name,
